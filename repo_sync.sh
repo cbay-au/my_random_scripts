@@ -2,9 +2,9 @@
 
 # List of repositories to sync
 REPOS=(
-  "https://https://github.com/leighton-0/.dotfiles"
+ # "https://https://github.com/leighton-0/.dotfiles"
   "https://github.com/leighton-0/My_Random_Scripts"
-  "https://github.com/user/repo3.git"
+  "https://github.com/leighton-0/cheat_sheets"
 )
 
 # Directory where repositories will be cloned/pulled
