@@ -1,0 +1,37 @@
+#!/bin/bash
+
+
+
+tla() { [ $# -eq 0 ] && cat $TODO || (echo "$(echo $* | md5sum | cut -c 1-4) 👉 $*" >> $TODO && cat $TODO) ;}
+# $# is the number of posutuion parameters; if this is equal to 0 then is lists all the todo's --> eg  cat $TODO
+# or if there are p parameters then these are listed ($*) and piped to md5sum to generat a ramdom number o- the fist 4 digets are cut
+# this first 4 digets of the md5, along with 👉 and the all the positional parameneters are added to the TODO file & this fille is listed
+
+tlr() { sed -i '' "/^$*/d" $TODO && cat $TODO ;}
+
+tl() { cat $TODO ;}
+
+tlc() { cat /dev/null > $TODO ;}
+
+# Here’s what each function does:
+
+# tla (Todo List Add): Adds tasks to the list. It generates a 4-character md5 hash to serve as a unique identifier for each task. 
+# If no argument is passed, it displays the current task list.
+# tlr (Todo List Remove): Removes tasks from the list by matching their md5 identifier.
+# tl (Todo List): Simply displays the current list.
+# tlc (Todo List Clear): Clears the entire task list, removing all entries at once.
+# At the end of each operation, the current state of your TODO list will be displayed.
+
+# 
+#    $1, $2, $3, ... are the positional parameters.
+#    "$@" is an array-like construct of all positional parameters, {$1, $2, $3 ...}.
+#    "$*" is the IFS expansion of all positional parameters, $1 $2 $3 ....
+#    $# is the number of positional parameters.
+#    $- current options set for the shell.
+#    $$ pid of the current shell (not subshell).
+#    $_ most recent parameter (or the abs path of the command to start the current shell immediately after startup).
+#    $IFS is the (input) field separator.
+#    $? is the most recent foreground pipeline exit status.
+#    $! is the PID of the most recent background command.
+#    $0 is the name of the shell or shell script.
+
