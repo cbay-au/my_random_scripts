@@ -1,0 +1,25 @@
+[31m
+================================================================================[m
+TARGET NAME:- 104.26.6.10 
+
+Scan Aborted: HTTP Error: https://wpscan.com/api/v3/status?version=3.8.27 (status: 401)
+[31m
+================================================================================[m
+TARGET NAME:- 172.67.74.85 
+
+Scan Aborted: HTTP Error: https://wpscan.com/api/v3/status?version=3.8.27 (status: 401)
+[31m
+================================================================================[m
+TARGET NAME:- 205.201.140.137 
+
+Scan Aborted: HTTP Error: https://wpscan.com/api/v3/status?version=3.8.27 (status: 401)
+[31m
+================================================================================[m
+TARGET NAME:- 44.207.252.71 
+
+Scan Aborted: The url supplied 'http://44.207.252.71/' seems to be down (Timeout was reached)
+[31m
+================================================================================[m
+TARGET NAME:- 52.216.26.75 
+
+Scan Aborted: HTTP Error: https://wpscan.com/api/v3/status?version=3.8.27 (status: 401)

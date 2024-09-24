@@ -8,8 +8,10 @@ printf '########################################################################
 
 # original script from Github
 
+set -x
+
 wpscan --update
-read -p $'\e[1;92m file path to targets: \e[0m' wl_pass
+read -p $'${RED} file path to targets: ${NORMAL}' wl_pass
 	# -p prompt asks for a file name for the list of sites - names this site wl_pass
 
 wl_pass="${wl_pass}"
@@ -24,4 +26,4 @@ for fn in `cat $wl_pass`; do
 wpscan --url $fn  --no-banner --no-update --wp-version-all >> result_test
 done
 
-print "Done please look in result"
+printf "Done please look in result"
