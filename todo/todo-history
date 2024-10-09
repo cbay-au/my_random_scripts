@@ -17,3 +17,12 @@
 + cat; Fri Sep 27 00:08:33 UTC 2024
 - cat; Fri Sep 27 00:08:53 UTC 2024
 + test; Sat Sep 28 04:12:49 UTC 2024
++ cat; Mon Oct  7 12:32:53 UTC 2024
+- cat; Mon Oct  7 12:33:05 UTC 2024
+- test; Mon Oct  7 12:33:19 UTC 2024
+- script to check if a site is running WP; Mon Oct  7 12:33:28 UTC 2024
+- source bore hole repair man; Mon Oct  7 12:33:38 UTC 2024
+- phone house designer; Mon Oct  7 12:33:51 UTC 2024
++ add sed description to wp_websites.csv-ab_1.1; Mon Oct  7 12:35:29 UTC 2024
++ ply around with WPvSCAN; Mon Oct  7 12:50:47 UTC 2024
+- update do droplet installation scrip including todo repo; Mon Oct  7 12:51:04 UTC 2024

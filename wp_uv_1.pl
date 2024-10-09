@@ -2,8 +2,9 @@
 
 #----------------------------------------------------------------
 # Name : WP_Enum
-# Author : leighton-0
+# Author : leighton-0 -- Original by https://github.com/joker25000/WP_Enum
 # A cleaned up version of wp_uv.pl
+# banners and user o/p removed
 #----------------------------------------------------------------
 use LWP::UserAgent;
 use Term::ANSIColor;

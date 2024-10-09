@@ -1,7 +1,4 @@
 wpscan on oyster-owners.com using 104 152 168 30
-update do droplet installation scrip including todo repo
 review other recon info on 0-0.com in cherry tree
-phone house designer
-source bore hole repair man
-script to check if a site is running WP
-test
+add sed description to wp_websites.csv-ab_1.1
+ply around with WPvSCAN

