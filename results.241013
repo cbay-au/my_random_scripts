@@ -50729,4 +50729,316 @@ Fingerprinting the version -: |=================================================
 
 [32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
 
- Checking Config Backups -: |====================================================================================================================
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 0
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 07:37:02 2024
+[32m[+][0m Requests Done: 927
+[32m[+][0m Cached Requests: 6
+[32m[+][0m Data Sent: 46.604 KB
+[32m[+][0m Data Received: 817.536 KB
+[32m[+][0m Memory used: 218.059 MB
+[32m[+][0m Elapsed time: 01:31:19
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://surfhouse.academy 
+
+Scan Aborted: The url supplied 'https://surfhouse.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://castell.academy 
+[32m[+][0m URL: https://castell.academy/ [199.59.243.227]
+[32m[+][0m Started: Mon Oct 14 07:37:05 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - X-Request-Id: 9707b522-4ffb-4678-aa8c-fca3265fd9fb
+ |  - Accept-Ch: sec-ch-prefers-color-scheme
+ |  - Critical-Ch: sec-ch-prefers-color-scheme
+ |  - X-Adblock-Key: MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBANDrp2lz7AOmADaN8tA50LsWcjLFyQFcb/P2Txc58oYOeILb3vBw7J6f4pamkAQVSQuqYsKx3YzdUHCvbVZvFUsCAwEAAQ==_z7//ywvz2VoLu3x0bvAVIq2fbFWERIg1A/rQUj8CSKsJ+qQrCUWnQDk43JmiY72XKraibcRpYw85+rIKpNBDHw==
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://castell.academy/robots.txt
+ | Interesting Entries:
+ |  - /?*
+ |  - /_zc
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site seems to be a multisite
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | Reference: http://codex.wordpress.org/Glossary#Multisite
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://castell.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+
+Fingerprinting the version -: |=============================================================================================================================================================|
+[34m[i][0m The WordPress version could not be detected.
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+
+[34m[i][0m No plugins Found.
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 0
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 07:38:29 2024
+[32m[+][0m Requests Done: 1735
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 767.118 KB
+[32m[+][0m Data Received: 12.589 MB
+[32m[+][0m Memory used: 251.359 MB
+[32m[+][0m Elapsed time: 00:01:24
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://escribus.academy 
+
+Scan Aborted: The url supplied 'https://escribus.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://quility.academy 
+
+Scan Aborted: Unable to identify the wp-content dir, please supply it with --wp-content-dir, use the --scope option or make sure the --url value given is the correct one
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://roshoworld.academy 
+
+Scan Aborted: The url supplied 'https://roshoworld.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://suncrypto.academy 
+
+Scan Aborted: The url supplied 'https://suncrypto.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://vippe.academy 
+
+Scan Aborted: The url supplied 'https://vippe.academy/' seems to be down (Timeout was reached)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://aulaingles.academy 
+
+Scan Aborted: Unable to identify the wp-content dir, please supply it with --wp-content-dir, use the --scope option or make sure the --url value given is the correct one
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://balayagemasterclass.academy 
+
+Scan Aborted: The url supplied 'https://balayagemasterclass.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://enigmanetwork.academy 
+
+Scan Aborted: The url supplied 'https://enigmanetwork.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://onix.academy 
+[32m[+][0m URL: https://onix.academy/ [176.9.83.136]
+[32m[+][0m Started: Mon Oct 14 07:39:12 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - server: nginx/1.15.10
+ |  - x-powered-by: PHP/8.0.30
+ |  - server-timing: wp-before-template;dur=310.78
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://onix.academy/robots.txt
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://onix.academy/xmlrpc.php
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+ | Confirmed By:
+ |  - Link Tag (Passive Detection), 30% confidence
+ |  - Direct Access (Aggressive Detection), 100% confidence
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: https://onix.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://onix.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.6.2 identified (Latest, released on 2024-09-10).
+ | Found By: Query Parameter In Install Page (Aggressive Detection)
+ |  - https://onix.academy/wp-includes/css/dashicons.min.css?ver=6.6.2
+ |  - https://onix.academy/wp-includes/css/buttons.min.css?ver=6.6.2
+ |  - https://onix.academy/wp-admin/css/forms.min.css?ver=6.6.2
+ |  - https://onix.academy/wp-admin/css/l10n.min.css?ver=6.6.2
+ |  - https://onix.academy/wp-admin/css/install.min.css?ver=6.6.2
+
+[32m[+][0m WordPress theme in use: my_theme
+ | Location: https://onix.academy/wp-content/themes/my_theme/
+ | Readme: https://onix.academy/wp-content/themes/my_theme/readme.txt
+ | Style URL: https://onix.academy/wp-content/themes/my_theme/style.css
+ | Style Name: my_theme
+ | Style URI: http://underscores.me/
+ | Description: Description...
+ | Author: Underscores.me
+ | Author URI: http://underscores.me/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 1.0.0 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://onix.academy/wp-content/themes/my_theme/style.css, Match: 'Version: 1.0.0'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m cf7-phone-mask-field
+ | Location: https://onix.academy/wp-content/plugins/cf7-phone-mask-field/
+ | Latest Version: 1.4.2 (up to date)
+ | Last Updated: 2021-01-07T11:29:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 1.4.2 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://onix.academy/wp-content/plugins/cf7-phone-mask-field/readme.txt
+
+[32m[+][0m contact-form-7
+ | Location: https://onix.academy/wp-content/plugins/contact-form-7/
+ | Last Updated: 2024-07-25T08:29:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 5.9.8
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By:
+ |  Urls In 404 Page (Passive Detection)
+ |  Hidden Input (Passive Detection)
+ |
+ | Version: 5.7.7 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://onix.academy/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.7.7
+ | Confirmed By:
+ |  Hidden Input (Passive Detection)
+ |   - https://onix.academy/, Match: '5.7.7'
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://onix.academy/wp-content/plugins/contact-form-7/readme.txt
+
+[32m[+][0m google-site-kit
+ | Location: https://onix.academy/wp-content/plugins/google-site-kit/
+ | Last Updated: 2024-10-07T17:37:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 1.137.0
+ |
+ | Found By: Meta Tag (Passive Detection)
+ |
+ | Version: 1.104.0 (100% confidence)
+ | Found By: Meta Tag (Passive Detection)
+ |  - https://onix.academy/, Match: 'Site Kit by Google 1.104.0'
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://onix.academy/wp-content/plugins/google-site-kit/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://onix.academy/wp-content/plugins/google-site-kit/readme.txt
+
+[32m[+][0m wordpress-seo
+ | Location: https://onix.academy/wp-content/plugins/wordpress-seo/
+ | Last Updated: 2024-09-24T07:41:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 23.5
+ |
+ | Found By: Comment (Passive Detection)
+ |
+ | Version: 20.10 (100% confidence)
+ | Found By: Comment (Passive Detection)
+ |  - https://onix.academy/, Match: 'optimized with the Yoast SEO plugin v20.10 -'
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://onix.academy/wp-content/plugins/wordpress-seo/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://onix.academy/wp-content/plugins/wordpress-seo/readme.txt
+
+[32m[+][0m wp-rocket
+ | Location: https://onix.academy/wp-content/plugins/wp-rocket/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 3.13.3 (60% confidence)
+ | Found By: Translation File (Aggressive Detection)
+ |  - https://onix.academy/wp-content/plugins/wp-rocket/languages/rocket.pot, Match: 'Project-Id-Version: WP Rocket 3.13.3'
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 7
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 07:39:33 2024
+[32m[+][0m Requests Done: 201
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 41.998 KB
+[32m[+][0m Data Received: 747.592 KB
+[32m[+][0m Memory used: 280.793 MB
+[32m[+][0m Elapsed time: 00:00:20
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://paperhelp.academy 
+
+Scan Aborted: The url supplied 'https://paperhelp.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://resistancetraining.academy 
+
+Scan Aborted: Unable to identify the wp-content dir, please supply it with --wp-content-dir, use the --scope option or make sure the --url value given is the correct one
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://roimaster.academy 
+
+Scan Aborted: The url supplied 'https://roimaster.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://safety-e.academy 
+
+Scan Aborted: The url supplied 'https://safety-e.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://scvle.academy 
