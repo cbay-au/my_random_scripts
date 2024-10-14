@@ -1,4 +1,5 @@
 
+
 #!/bin/bash
 # A script for scanning a file of targets based on wpscan
 
@@ -17,6 +18,7 @@ sleep 2
 
 D=$(date +"%y%m%d")						# creates a date variable in the form yymmdd
 SECONDS=0
+ELAPSED="Elapsed: $(($SECONDS / 3600))hrs $((($SECONDS / 60) % 60))min $(($SECONDS % 60))sec"
 #results=$(~/zresults/wp_websites.csv-aa_1.1.{D})		# not working ??
 #resultsave=$((echo "${results" | cut -d"/" -f2))
 #echo ${resultsave}
@@ -25,7 +27,7 @@ rm counter.txt
 #printf "${RED} Results for $1 ${NORMAL}\n"
 I=0
 #wl_pass=~/mycode/reconftw/Recon/$1/hosts/ips.txt
-wl_pass=~/ztargets/wp_websites.csv-aa_1.1
+wl_pass=~/ztargets/wp_websites.csv-aa_1.1.97500
 #wpscan --update
 printf "${BLUE}\n\n########################################################################\n${NORMAL}" >> "results.${D}"
 printf "${RED}##                 WordPress Auto Mass Scan                       ##${NORMAL}\n" >> "results.${D}"
@@ -51,7 +53,7 @@ wpscan --url $fn --no-update --force --random-user-agent --ignore-main-redirect 
 }
 
 I=$((I+1))
-printf "Loop number %-1d of %-.3d \n" $I  $count_pass >> counter.txt
+printf "Loop number %-1d of %-.3d  Target = $fn  Runtime = ${ELAPSED} \n" $I  $count_pass >> counter.txt
 
 # Select option
 wp_confirm
