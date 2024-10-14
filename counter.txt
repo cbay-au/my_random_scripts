@@ -1281,3 +1281,14 @@ Loop number 1280 of 97500  Target = https://tradeandlearn.academy  Runtime = Ela
 Loop number 1281 of 97500  Target = https://wisdomtech.academy  Runtime = Elapsed: 0hrs 0min 0sec 
 Loop number 1282 of 97500  Target = https://feminineagility.academy  Runtime = Elapsed: 0hrs 0min 0sec 
 Loop number 1283 of 97500  Target = https://geniusphysics.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1284 of 97500  Target = https://homebuilding.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1285 of 97500  Target = https://ipnosi.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1286 of 97500  Target = https://logoslab.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1287 of 97500  Target = https://mcw.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1288 of 97500  Target = https://placida.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1289 of 97500  Target = https://cadwork.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1290 of 97500  Target = https://controla.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1291 of 97500  Target = https://elmandjra.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1292 of 97500  Target = https://flexwork.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1293 of 97500  Target = https://havilahfx.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1294 of 97500  Target = https://v90.academy  Runtime = Elapsed: 0hrs 0min 0sec 
