@@ -50718,4 +50718,15 @@ Interesting Finding(s):
  |  - https://github.com/wpscanteam/wpscan/issues/1299
 
 
-Fingerprinting the version -: |==============================================================================================================================================
+Fingerprinting the version -: |=============================================================================================================================================================|
+[34m[i][0m The WordPress version could not be detected.
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+
+[34m[i][0m No plugins Found.
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |==================================================================================================================
