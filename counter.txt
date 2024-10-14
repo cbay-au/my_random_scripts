@@ -1292,3 +1292,6 @@ Loop number 1291 of 97500  Target = https://elmandjra.academy  Runtime = Elapsed
 Loop number 1292 of 97500  Target = https://flexwork.academy  Runtime = Elapsed: 0hrs 0min 0sec 
 Loop number 1293 of 97500  Target = https://havilahfx.academy  Runtime = Elapsed: 0hrs 0min 0sec 
 Loop number 1294 of 97500  Target = https://v90.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1295 of 97500  Target = https://exobyte.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1296 of 97500  Target = https://infographic.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1297 of 97500  Target = https://inspirationsports.academy  Runtime = Elapsed: 0hrs 0min 0sec 

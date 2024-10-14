@@ -52119,3 +52119,61 @@ Scan Aborted: The url supplied 'https://havilahfx.academy/' seems to be down (Co
 [0;31m
 ================================================================================[0m
 TARGET NAME:- https://v90.academy 
+[32m[+][0m URL: https://v90.academy/ [15.197.148.33]
+[32m[+][0m Started: Mon Oct 14 07:50:52 2024
+
+Interesting Finding(s):
+
+[32m[+][0m This site seems to be a multisite
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | Reference: http://codex.wordpress.org/Glossary#Multisite
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://v90.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+
+Fingerprinting the version -: |=============================================================================================================================================================|
+[34m[i][0m The WordPress version could not be detected.
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+
+[34m[i][0m No plugins Found.
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 0
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 07:51:30 2024
+[32m[+][0m Requests Done: 1735
+[32m[+][0m Cached Requests: 5
+[32m[+][0m Data Sent: 394.085 KB
+[32m[+][0m Data Received: 263.407 KB
+[32m[+][0m Memory used: 240.402 MB
+[32m[+][0m Elapsed time: 00:00:38
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://exobyte.academy 
+
+Scan Aborted: The url supplied 'https://exobyte.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://infographic.academy 
+
+Scan Aborted: The url supplied 'https://infographic.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://inspirationsports.academy 
