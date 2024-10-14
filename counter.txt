@@ -1275,3 +1275,9 @@ Loop number 1274 of 97500  Target = https://resistancetraining.academy  Runtime 
 Loop number 1275 of 97500  Target = https://roimaster.academy  Runtime = Elapsed: 0hrs 0min 0sec 
 Loop number 1276 of 97500  Target = https://safety-e.academy  Runtime = Elapsed: 0hrs 0min 0sec 
 Loop number 1277 of 97500  Target = https://scvle.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1278 of 97500  Target = https://shk.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1279 of 97500  Target = https://theonepercent.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1280 of 97500  Target = https://tradeandlearn.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1281 of 97500  Target = https://wisdomtech.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1282 of 97500  Target = https://feminineagility.academy  Runtime = Elapsed: 0hrs 0min 0sec 
+Loop number 1283 of 97500  Target = https://geniusphysics.academy  Runtime = Elapsed: 0hrs 0min 0sec 

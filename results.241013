@@ -51042,3 +51042,255 @@ Scan Aborted: The url supplied 'https://safety-e.academy/' seems to be down (Cou
 [0;31m
 ================================================================================[0m
 TARGET NAME:- https://scvle.academy 
+
+Scan Aborted: Unable to identify the wp-content dir, please supply it with --wp-content-dir, use the --scope option or make sure the --url value given is the correct one
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://shk.academy 
+
+Scan Aborted: The url supplied 'https://shk.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://theonepercent.academy 
+
+Scan Aborted: The url supplied 'https://theonepercent.academy/' seems to be down (SSL connect error)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://tradeandlearn.academy 
+
+Scan Aborted: The url supplied 'https://tradeandlearn.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://wisdomtech.academy 
+[32m[+][0m URL: https://wisdomtech.academy/ [104.21.67.244]
+[32m[+][0m Started: Mon Oct 14 07:44:19 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - cf-ray: 8d25f17c1f77438b-EWR
+ |  - cf-cache-status: HIT
+ |  - cf-apo-via: tcache
+ |  - cf-edge-cache: cache,platform=wordpress
+ |  - panel: hpanel
+ |  - platform: hostinger
+ |  - x-dns-prefetch-control: on
+ |  - x-litespeed-cache: miss
+ |  - x-litespeed-cache-control: public,max-age=604800
+ |  - x-litespeed-tag: 839_HTTP.200,839_front,839_URL.6666cd76f96956469e7be39d750cc7d9,839_F,839_Po.3026,839_PGS,839_guest,839_,839_MIN.7e6787948fbd6550f3de7215c173a239.css,839_MIN.9f90007ef75e9c0819438603976d7470.js
+ |  - x-powered-by: PHP/8.2.15
+ |  - x-turbo-charged-by: LiteSpeed
+ |  - report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=88FIC2HnX7HTUM2rQ16PfIT%2FdkkpZEaCoJ%2FGXRi4mnvOLQ87GwJl0UgnXFNrqi02ozf7POSZENMzCmb%2BdSRrElEVwe7xlPsksFHXSOwswv28%2BZuG5t8g5KBzStpBAS5B6lfaw6E%3D"}],"group":"cf-nel","max_age":604800}
+ |  - nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+ |  - speculation-rules: "/cdn-cgi/speculation"
+ |  - server: cloudflare
+ |  - alt-svc: h3=":443"; ma=86400
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://wisdomtech.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-content/uploads/wc-logs/
+ |  - /wp-content/uploads/woocommerce_transient_files/
+ |  - /wp-content/uploads/woocommerce_uploads/
+ |  - /wp-admin/
+ |  - /wp-admin/admin-ajax.php
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m WordPress readme found: https://wisdomtech.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site has 'Must Use Plugins': https://wisdomtech.academy/wp-content/mu-plugins/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 80%
+ | Reference: http://codex.wordpress.org/Must_Use_Plugins
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://wisdomtech.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.6.2 identified (Latest, released on 2024-09-10).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://wisdomtech.academy/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+ |  - https://wisdomtech.academy/comments/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+
+[32m[+][0m WordPress theme in use: kadence
+ | Location: https://wisdomtech.academy/wp-content/themes/kadence/
+ | Latest Version: 1.2.9 (up to date)
+ | Last Updated: 2024-08-20T00:00:00.000Z
+ | Readme: https://wisdomtech.academy/wp-content/themes/kadence/readme.txt
+ | Style URL: https://wisdomtech.academy/wp-content/themes/kadence/style.css
+ | Style Name: Kadence
+ | Style URI: https://www.kadencewp.com/kadence-theme/
+ | Description: Kadence Theme is a lightweight yet full featured WordPress theme for creating beautiful fast loading...
+ | Author: Kadence WP
+ | Author URI: https://www.kadencewp.com/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 1.2.9 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://wisdomtech.academy/wp-content/themes/kadence/style.css, Match: 'Version: 1.2.9'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m google-analytics-for-wordpress
+ | Location: https://wisdomtech.academy/wp-content/plugins/google-analytics-for-wordpress/
+ | Latest Version: 9.1.1 (up to date)
+ | Last Updated: 2024-09-24T17:46:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 9.1.1 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://wisdomtech.academy/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://wisdomtech.academy/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+
+[32m[+][0m litespeed-cache
+ | Location: https://wisdomtech.academy/wp-content/plugins/litespeed-cache/
+ | Latest Version: 6.5.1 (up to date)
+ | Last Updated: 2024-09-25T18:06:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 6.5.1 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://wisdomtech.academy/wp-content/plugins/litespeed-cache/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://wisdomtech.academy/wp-content/plugins/litespeed-cache/readme.txt
+
+[32m[+][0m woocommerce
+ | Location: https://wisdomtech.academy/wp-content/plugins/woocommerce/
+ | Last Updated: 2024-09-25T13:56:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 9.3.3
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 9.3.2 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://wisdomtech.academy/wp-content/plugins/woocommerce/readme.txt
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 5
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 07:44:40 2024
+[32m[+][0m Requests Done: 184
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 50.092 KB
+[32m[+][0m Data Received: 1.918 MB
+[32m[+][0m Memory used: 282.793 MB
+[32m[+][0m Elapsed time: 00:00:20
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://feminineagility.academy 
+[32m[+][0m URL: https://feminineagility.academy/ [193.141.3.71]
+[32m[+][0m Started: Mon Oct 14 07:44:51 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - server: Apache/2.4.62 (Unix)
+ |  - x-powered-by: PHP/8.0.30
+ |  - x-ua-compatible: IE=edge
+ |  - x-redirect-by: WordPress
+ |  - referrer-policy: no-referrer-when-downgrade
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://feminineagility.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-admin/
+ |  - /wp-admin/admin-ajax.php
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://feminineagility.academy/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: https://feminineagility.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://feminineagility.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.6.1 identified (Outdated, released on 2024-07-23).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://feminineagility.academy/feed/, <generator>https://wordpress.org/?v=6.6.1</generator>
+ |  - https://feminineagility.academy/comments/feed/, <generator>https://wordpress.org/?v=6.6.1</generator>
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m w3-total-cache
+ | Location: https://feminineagility.academy/wp-content/plugins/w3-total-cache/
+ | Latest Version: 2.7.6 (up to date)
+ | Last Updated: 2024-09-23T14:51:00.000Z
+ |
+ | Found By: Comment Debug Info (Passive Detection)
+ |
+ | Version: 2.7.6 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://feminineagility.academy/wp-content/plugins/w3-total-cache/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://feminineagility.academy/wp-content/plugins/w3-total-cache/readme.txt
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 2
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 07:45:22 2024
+[32m[+][0m Requests Done: 172
+[32m[+][0m Cached Requests: 5
+[32m[+][0m Data Sent: 57.896 KB
+[32m[+][0m Data Received: 315.515 KB
+[32m[+][0m Memory used: 231.578 MB
+[32m[+][0m Elapsed time: 00:00:30
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://geniusphysics.academy 
