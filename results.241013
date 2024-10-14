@@ -47597,4 +47597,3125 @@ Interesting Finding(s):
  |  - https://github.com/wpscanteam/wpscan/issues/1299
 
 
-Fingerprinting the version -: |===============================================================================================================================
+Fingerprinting the version -: |=============================================================================================================================================================|
+[34m[i][0m The WordPress version could not be detected.
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+
+[34m[i][0m No plugins Found.
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 0
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:42:17 2024
+[32m[+][0m Requests Done: 941
+[32m[+][0m Cached Requests: 6
+[32m[+][0m Data Sent: 63.979 KB
+[32m[+][0m Data Received: 995.846 KB
+[32m[+][0m Memory used: 219.137 MB
+[32m[+][0m Elapsed time: 01:28:52
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://onlinefoundr.academy 
+
+Scan Aborted: The url supplied 'https://onlinefoundr.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://skill2learn.academy 
+
+Scan Aborted: The url supplied 'https://skill2learn.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://social-bar.academy 
+
+Scan Aborted: The url supplied 'https://social-bar.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://cybercampus.academy 
+
+Scan Aborted: The url supplied 'https://cybercampus.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://salamat.academy 
+[32m[+][0m URL: https://salamat.academy/ [104.21.21.123]
+[32m[+][0m Started: Mon Oct 14 05:42:26 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - x-powered-by: PHP/7.4.33
+ |  - x-redirect-by: WordPress
+ |  - alt-svc: h3=":443"; ma=86400
+ |  - cf-cache-status: DYNAMIC
+ |  - report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Z3Ya9PLrGuUDZQ%2Ffmi%2B8qK7LBWPn%2FJKZTNldJCsM%2BZcFKkBcQYFolQn6oOJGMJrZfggYIvAr64sgTKDcE9M5p%2BPllyKXIkF7%2BUX4LQr26iFlivMwWjc%2BFG71ghOYHNpr650%3D"}],"group":"cf-nel","max_age":604800}
+ |  - nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+ |  - speculation-rules: "/cdn-cgi/speculation"
+ |  - server: cloudflare
+ |  - cf-ray: 8d253ee08e8a558f-EWR
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://salamat.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-admin/
+ |  - /product/campaign/
+ |  - /cart/
+ |  - /checkout/
+ |  - /certificate/
+ |  - /login/
+ |  - /panel/
+ |  - /wp-admin/admin-ajax.php
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site has 'Must Use Plugins': https://salamat.academy/wp-content/mu-plugins/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 80%
+ | Reference: http://codex.wordpress.org/Must_Use_Plugins
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://salamat.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+
+Fingerprinting the version -: |=============================================================================================================================================================|
+[34m[i][0m The WordPress version could not be detected.
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+
+[34m[i][0m No plugins Found.
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 0
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:43:29 2024
+[32m[+][0m Requests Done: 1475
+[32m[+][0m Cached Requests: 5
+[32m[+][0m Data Sent: 343.743 KB
+[32m[+][0m Data Received: 28.793 MB
+[32m[+][0m Memory used: 233.629 MB
+[32m[+][0m Elapsed time: 00:01:02
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://shadowed.academy 
+
+Scan Aborted: The url supplied 'https://shadowed.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://startupbuilder.academy 
+
+Scan Aborted: The url supplied 'https://startupbuilder.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://t-trend.academy 
+[32m[+][0m URL: https://t-trend.academy/ [65.108.205.151]
+[32m[+][0m Started: Mon Oct 14 05:43:39 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - server: LiteSpeed
+ |  - alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://t-trend.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-admin/
+ |  - /wp-admin/admin-ajax.php
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m WordPress readme found: https://t-trend.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://t-trend.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.3.5 identified (Outdated, released on 2024-06-24).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://t-trend.academy/feed/, <generator>https://wordpress.org/?v=6.3.5</generator>
+ |  - https://t-trend.academy/comments/feed/, <generator>https://wordpress.org/?v=6.3.5</generator>
+
+[32m[+][0m WordPress theme in use: tabula
+ | Location: https://t-trend.academy/wp-content/themes/tabula/
+ | Readme: https://t-trend.academy/wp-content/themes/tabula/readme.txt
+ | Style URL: https://t-trend.academy/wp-content/themes/tabula/style.css?ver=6.3.5
+ | Style Name: Tabula
+ | Style URI: http://tabula.bold-themes.com
+ | Description: WordPress theme for art, acting, music, language and dancing schools and classes....
+ | Author: BoldThemes
+ | Author URI: http://bold-themes.com
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ | Confirmed By: Css Style In 404 Page (Passive Detection)
+ |
+ | Version: 1.2.4 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://t-trend.academy/wp-content/themes/tabula/style.css?ver=6.3.5, Match: 'Version: 1.2.4'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m bold-page-builder
+ | Location: https://t-trend.academy/wp-content/plugins/bold-page-builder/
+ | Latest Version: 5.1.3
+ | Last Updated: 2024-09-18T09:01:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m bt_cost_calculator
+ | Location: https://t-trend.academy/wp-content/plugins/bt_cost_calculator/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m cf7-conditional-fields
+ | Location: https://t-trend.academy/wp-content/plugins/cf7-conditional-fields/
+ | Last Updated: 2024-07-27T15:10:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 2.4.15
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 2.4 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://t-trend.academy/wp-content/plugins/cf7-conditional-fields/style.css?ver=2.4
+ |  - https://t-trend.academy/wp-content/plugins/cf7-conditional-fields/js/scripts.js?ver=2.4
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://t-trend.academy/wp-content/plugins/cf7-conditional-fields/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://t-trend.academy/wp-content/plugins/cf7-conditional-fields/readme.txt
+
+[32m[+][0m contact-form-7
+ | Location: https://t-trend.academy/wp-content/plugins/contact-form-7/
+ | Last Updated: 2024-07-25T08:29:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 5.9.8
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By:
+ |  Urls In 404 Page (Passive Detection)
+ |  Hidden Input (Passive Detection)
+ |
+ | Version: 5.8.2 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://t-trend.academy/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.8.2
+ | Confirmed By:
+ |  Hidden Input (Passive Detection)
+ |   - https://t-trend.academy/, Match: '5.8.2'
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://t-trend.academy/wp-content/plugins/contact-form-7/readme.txt
+
+[32m[+][0m cookie-notice
+ | Location: https://t-trend.academy/wp-content/plugins/cookie-notice/
+ | Last Updated: 2024-08-12T10:39:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 2.4.18
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 2.4.11.1 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://t-trend.academy/wp-content/plugins/cookie-notice/readme.txt
+
+[32m[+][0m modern-events-calendar-lite
+ | Location: https://t-trend.academy/wp-content/plugins/modern-events-calendar-lite/
+ | Last Updated: 2022-05-10T21:06:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 6.5.6
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 6.5.3 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://t-trend.academy/wp-content/plugins/modern-events-calendar-lite/readme.txt
+ | Confirmed By: Change Log (Aggressive Detection)
+ |  - https://t-trend.academy/wp-content/plugins/modern-events-calendar-lite/changelog.txt, Match: '6.5.3'
+
+[32m[+][0m page-scroll-to-id
+ | Location: https://t-trend.academy/wp-content/plugins/page-scroll-to-id/
+ | Last Updated: 2024-07-17T11:08:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 1.7.9
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 1.7.8 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://t-trend.academy/wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min.js?ver=1.7.8
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://t-trend.academy/wp-content/plugins/page-scroll-to-id/readme.txt
+ |  Javascript Comment (Aggressive Detection)
+ |   - https://t-trend.academy/wp-content/plugins/page-scroll-to-id/js/page-scroll-to-id.min.js, Match: 'Page scroll to id - version 1.7.8'
+
+[32m[+][0m sitepress-multilingual-cms
+ | Location: https://t-trend.academy/wp-content/plugins/sitepress-multilingual-cms/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By:
+ |  Urls In 404 Page (Passive Detection)
+ |  Meta Generator (Passive Detection)
+ |
+ | Version: 4.6.6 (100% confidence)
+ | Found By: Meta Generator (Passive Detection)
+ |  - https://t-trend.academy/, Match: 'WPML ver:4.6.6 stt'
+ | Confirmed By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://t-trend.academy/wp-content/plugins/sitepress-multilingual-cms/readme.txt
+
+[32m[+][0m strong-testimonials
+ | Location: https://t-trend.academy/wp-content/plugins/strong-testimonials/
+ | Last Updated: 2024-09-03T06:28:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 3.1.20
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ |
+ | Version: 3.1.9 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://t-trend.academy/wp-content/plugins/strong-testimonials/readme.txt
+ | Confirmed By: Change Log (Aggressive Detection)
+ |  - https://t-trend.academy/wp-content/plugins/strong-testimonials/changelog.txt, Match: '= 3.1.9'
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 11
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:45:23 2024
+[32m[+][0m Requests Done: 332
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 100.785 KB
+[32m[+][0m Data Received: 4.33 MB
+[32m[+][0m Memory used: 302.543 MB
+[32m[+][0m Elapsed time: 00:01:43
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://targum.academy 
+[32m[+][0m URL: https://targum.academy/ [185.129.138.60]
+[32m[+][0m Started: Mon Oct 14 05:45:36 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - Server: Apache
+ |  - X-Redirect-By: WordPress
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://targum.academy/robots.txt
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m WordPress readme found: https://targum.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://targum.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.6.2 identified (Latest, released on 2024-09-10).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://www.targum.academy/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+ | Confirmed By: Atom Generator (Aggressive Detection)
+ |  - https://www.targum.academy/feed/atom/, <generator uri="https://wordpress.org/" version="6.6.2">WordPress</generator>
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m wordpress-seo
+ | Location: https://targum.academy/wp-content/plugins/wordpress-seo/
+ | Latest Version: 23.5 (up to date)
+ | Last Updated: 2024-09-24T07:41:00.000Z
+ |
+ | Found By: Comment (Passive Detection)
+ |
+ | Version: 23.6 (100% confidence)
+ | Found By: Comment (Passive Detection)
+ |  - https://www.targum.academy/c40559a.html, Match: 'optimized with the Yoast SEO plugin v23.6 -'
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://targum.academy/wp-content/plugins/wordpress-seo/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://targum.academy/wp-content/plugins/wordpress-seo/readme.txt
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 2
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:46:16 2024
+[32m[+][0m Requests Done: 176
+[32m[+][0m Cached Requests: 5
+[32m[+][0m Data Sent: 50.658 KB
+[32m[+][0m Data Received: 1.5 MB
+[32m[+][0m Memory used: 244.914 MB
+[32m[+][0m Elapsed time: 00:00:39
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://viaca.academy 
+
+Scan Aborted: The url supplied 'https://viaca.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://artidomo.academy 
+
+Scan Aborted: Unable to identify the wp-content dir, please supply it with --wp-content-dir, use the --scope option or make sure the --url value given is the correct one
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://digitaltransformationprofessional.academy 
+
+Scan Aborted: The url supplied 'https://digitaltransformationprofessional.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://flyeralarm.academy 
+
+Scan Aborted: The url supplied 'https://flyeralarm.academy/' seems to be down (Couldn't connect to server)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://fulfilment.academy 
+
+Scan Aborted: The url supplied 'https://fulfilment.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://go2cam.academy 
+[32m[+][0m URL: https://go2cam.academy/ [146.59.209.152]
+[32m[+][0m Started: Mon Oct 14 05:46:34 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - server: Apache
+ |  - x-powered-by: PHP/8.3
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://go2cam.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-admin/
+ |  - /wp-admin/admin-ajax.php
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m WordPress readme found: https://go2cam.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site seems to be a multisite
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | Reference: http://codex.wordpress.org/Glossary#Multisite
+
+[32m[+][0m This site has 'Must Use Plugins': https://go2cam.academy/wp-content/mu-plugins/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 80%
+ | Reference: http://codex.wordpress.org/Must_Use_Plugins
+
+[32m[+][0m Registration is enabled: https://go2cam.academy/wp-signup.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://go2cam.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.6.2 identified (Latest, released on 2024-09-10).
+ | Found By: Query Parameter In Install Page (Aggressive Detection)
+ |  - https://go2cam.academy/wp-includes/css/dashicons.min.css?ver=6.6.2
+ |  - https://go2cam.academy/wp-includes/css/buttons.min.css?ver=6.6.2
+ |  - https://go2cam.academy/wp-admin/css/forms.min.css?ver=6.6.2
+ |  - https://go2cam.academy/wp-admin/css/l10n.min.css?ver=6.6.2
+ |  - https://go2cam.academy/wp-admin/css/install.min.css?ver=6.6.2
+
+[32m[+][0m WordPress theme in use: academy
+ | Location: https://go2cam.academy/wp-content/themes/academy/
+ | Style URL: https://go2cam.academy/wp-content/themes/academy/style.css?ver=6.6.2
+ | Style Name: GO2cam Academy
+ | Description: GO2cam Academy site...
+ | Author: SG - GO2cam
+ | Author URI: https://go2cam.net
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ | Confirmed By: Css Style In 404 Page (Passive Detection)
+ |
+ | Version: 1.1 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://go2cam.academy/wp-content/themes/academy/style.css?ver=6.6.2, Match: 'Version: 1.1'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m elementor
+ | Location: https://go2cam.academy/wp-content/plugins/elementor/
+ | Latest Version: 3.24.5 (up to date)
+ | Last Updated: 2024-10-01T08:54:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ |
+ | Version: 3.24.5 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://go2cam.academy/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=3.24.5
+ |  - https://go2cam.academy/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.24.5
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://go2cam.academy/wp-content/plugins/elementor/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://go2cam.academy/wp-content/plugins/elementor/readme.txt
+
+[32m[+][0m login-with-ajax
+ | Location: https://go2cam.academy/wp-content/plugins/login-with-ajax/
+ | Latest Version: 4.3 (up to date)
+ | Last Updated: 2024-04-02T22:53:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 4.3 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://go2cam.academy/wp-content/plugins/login-with-ajax/readme.txt
+
+[32m[+][0m premium-addons-for-elementor
+ | Location: https://go2cam.academy/wp-content/plugins/premium-addons-for-elementor/
+ | Latest Version: 4.10.55 (up to date)
+ | Last Updated: 2024-10-01T14:56:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 4.10.55 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://go2cam.academy/wp-content/plugins/premium-addons-for-elementor/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://go2cam.academy/wp-content/plugins/premium-addons-for-elementor/readme.txt
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 5
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:47:20 2024
+[32m[+][0m Requests Done: 194
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 41.126 KB
+[32m[+][0m Data Received: 860.482 KB
+[32m[+][0m Memory used: 280.398 MB
+[32m[+][0m Elapsed time: 00:00:46
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://indigocoachingllc.academy 
+
+Scan Aborted: The url supplied 'https://indigocoachingllc.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://inkspace.academy 
+[32m[+][0m URL: https://inkspace.academy/ [82.197.89.155]
+[32m[+][0m Started: Mon Oct 14 05:47:25 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - x-powered-by: PHP/8.1.27
+ |  - x-litespeed-cache: hit
+ |  - server: LiteSpeed
+ |  - platform: hostinger
+ |  - panel: hpanel
+ |  - content-security-policy: upgrade-insecure-requests
+ |  - alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://inkspace.academy/robots.txt
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://inkspace.academy/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: https://inkspace.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://inkspace.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.4.5 identified (Outdated, released on 2024-06-24).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://inkspace.academy/feed/, <generator>https://wordpress.org/?v=6.4.5</generator>
+ |  - https://inkspace.academy/comments/feed/, <generator>https://wordpress.org/?v=6.4.5</generator>
+
+[32m[+][0m WordPress theme in use: numerique
+ | Location: https://inkspace.academy/wp-content/themes/numerique/
+ | Readme: https://inkspace.academy/wp-content/themes/numerique/readme.txt
+ | Style URL: https://inkspace.academy/wp-content/themes/numerique/style.css
+ | Style Name: Numerique
+ | Style URI: https://numerique.vamtam.com
+ | Description: Welcome to Numérique, a modern Digital Marketing and SEO Theme. This lovely niche theme is built and...
+ | Author: VamTam
+ | Author URI: https://vamtam.com
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 1.2 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://inkspace.academy/wp-content/themes/numerique/style.css, Match: 'Version: 1.2'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m elementor
+ | Location: https://inkspace.academy/wp-content/plugins/elementor/
+ | Last Updated: 2024-10-01T08:54:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 3.24.5
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 3.17.1 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://inkspace.academy/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.17.1
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://inkspace.academy/wp-content/plugins/elementor/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://inkspace.academy/wp-content/plugins/elementor/readme.txt
+
+[32m[+][0m elementor-pro
+ | Location: https://inkspace.academy/wp-content/plugins/elementor-pro/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 3.6.5 (90% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://inkspace.academy/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.6.5
+ |  - https://inkspace.academy/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.6.5
+ |  - https://inkspace.academy/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.6.5
+ | Confirmed By: Change Log (Aggressive Detection)
+ |  - https://inkspace.academy/wp-content/plugins/elementor-pro/changelog.txt, Match: '#### 3.6.5 -'
+
+[32m[+][0m essential-addons-for-elementor-lite
+ | Location: https://inkspace.academy/wp-content/plugins/essential-addons-for-elementor-lite/
+ | Last Updated: 2024-09-29T10:26:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 6.0.6
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 5.8.13 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://inkspace.academy/wp-content/plugins/essential-addons-for-elementor-lite/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://inkspace.academy/wp-content/plugins/essential-addons-for-elementor-lite/readme.txt
+
+[32m[+][0m google-site-kit
+ | Location: https://inkspace.academy/wp-content/plugins/google-site-kit/
+ | Last Updated: 2024-10-07T17:37:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 1.137.0
+ |
+ | Found By: Meta Tag (Passive Detection)
+ |
+ | Version: 1.115.0 (100% confidence)
+ | Found By: Meta Tag (Passive Detection)
+ |  - https://inkspace.academy/, Match: 'Site Kit by Google 1.115.0'
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://inkspace.academy/wp-content/plugins/google-site-kit/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://inkspace.academy/wp-content/plugins/google-site-kit/readme.txt
+
+[32m[+][0m tabsInFocus
+ | Location: https://inkspace.academy/wp-content/plugins/tabsInFocus/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m vamtam-elementor-integration-numerique
+ | Location: https://inkspace.academy/wp-content/plugins/vamtam-elementor-integration-numerique/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m wordpress-seo
+ | Location: https://inkspace.academy/wp-content/plugins/wordpress-seo/
+ | Last Updated: 2024-09-24T07:41:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 23.5
+ |
+ | Found By: Comment (Passive Detection)
+ |
+ | Version: 21.7 (100% confidence)
+ | Found By: Comment (Passive Detection)
+ |  - https://inkspace.academy/, Match: 'optimized with the Yoast SEO plugin v21.7 -'
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://inkspace.academy/wp-content/plugins/wordpress-seo/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://inkspace.academy/wp-content/plugins/wordpress-seo/readme.txt
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 9
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:47:44 2024
+[32m[+][0m Requests Done: 208
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 65.133 KB
+[32m[+][0m Data Received: 2.41 MB
+[32m[+][0m Memory used: 289.418 MB
+[32m[+][0m Elapsed time: 00:00:19
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://lina-official.academy 
+[32m[+][0m URL: https://lina-official.academy/ [85.214.169.137]
+[32m[+][0m Started: Mon Oct 14 05:47:49 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entry: server: Apache
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://lina-official.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-admin/
+ |  - /wp-admin/admin-ajax.php
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://lina-official.academy/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: https://lina-official.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://lina-official.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.0.9 identified (Outdated, released on 2024-06-24).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://lina-official.academy/feed/, <generator>https://wordpress.org/?v=6.0.9</generator>
+ | Confirmed By: Atom Generator (Aggressive Detection)
+ |  - https://lina-official.academy/feed/atom/, <generator uri="https://wordpress.org/" version="6.0.9">WordPress</generator>
+
+[32m[+][0m WordPress theme in use: themify-ultra
+ | Location: https://lina-official.academy/wp-content/themes/themify-ultra/
+ | Last Updated: 2024-10-04T00:00:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 7.7.9
+ | Style URL: https://lina-official.academy/wp-content/themes/themify-ultra/style.css
+ | Style Name: Themify Ultra
+ | Style URI: https://themify.me/themes/ultra/
+ | Description: Use Ultra theme to create professional sites quickly and easily (landing pages, portfolio, blog, cor...
+ | Author: Themify
+ | Author URI: https://www.themify.me
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 5.7.1 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://lina-official.academy/wp-content/themes/themify-ultra/style.css, Match: 'Version:5.7.1'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m announcement-bar
+ | Location: https://lina-official.academy/wp-content/plugins/announcement-bar/
+ | Latest Version: 0.4.1
+ | Last Updated: 2015-04-23T17:23:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m pie-register-premium
+ | Location: https://lina-official.academy/wp-content/plugins/pie-register-premium/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 3.8.1.3 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://lina-official.academy/wp-content/plugins/pie-register-premium/readme.txt
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 4
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:48:18 2024
+[32m[+][0m Requests Done: 188
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 46.991 KB
+[32m[+][0m Data Received: 611.649 KB
+[32m[+][0m Memory used: 282.875 MB
+[32m[+][0m Elapsed time: 00:00:29
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://silentwaves.academy 
+
+Scan Aborted: The url supplied 'https://silentwaves.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://smartemailing.academy 
+
+Scan Aborted: Unable to identify the wp-content dir, please supply it with --wp-content-dir, use the --scope option or make sure the --url value given is the correct one
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://bigital.academy 
+[32m[+][0m URL: https://bigital.academy/ [88.198.24.148]
+[32m[+][0m Started: Mon Oct 14 05:48:25 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entry: alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://bigital.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-admin/
+ |  - /wp-content/uploads/
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://bigital.academy/xmlrpc.php
+ | Found By: Link Tag (Passive Detection)
+ | Confidence: 100%
+ | Confirmed By: Direct Access (Aggressive Detection), 100% confidence
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: https://bigital.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m Upload directory has listing enabled: https://bigital.academy/wp-content/uploads/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://bigital.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.5.5 identified (Outdated, released on 2024-06-24).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://bigital.academy/feed/, <generator>https://wordpress.org/?v=6.5.5</generator>
+ |  - https://bigital.academy/comments/feed/, <generator>https://wordpress.org/?v=6.5.5</generator>
+
+[32m[+][0m WordPress theme in use: studiare
+ | Location: https://bigital.academy/wp-content/themes/studiare/
+ | Style URL: https://bigital.academy/wp-content/themes/studiare/style.css?ver=6.5.5
+ | Style Name: Bigital Academy
+ | Style URI: https://bigital.academy
+ | Description: With Studiare, you can sell, market and create your online courses in one place. It is perfect for u...
+ | Author: Mohammad Mahdi Mohammadian Neko
+ | Author URI: https://bigital.academy
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ | Confirmed By: Css Style In 404 Page (Passive Detection)
+ |
+ | Version: 6.2 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://bigital.academy/wp-content/themes/studiare/style.css?ver=6.5.5, Match: 'Version: 6.2'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m contact-form-7
+ | Location: https://bigital.academy/wp-content/plugins/contact-form-7/
+ | Last Updated: 2024-07-25T08:29:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 5.9.8
+ |
+ | Found By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 5.5.5 (90% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://bigital.academy/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.5
+ | Confirmed By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://bigital.academy/wp-content/plugins/contact-form-7/readme.txt
+
+[32m[+][0m elementor
+ | Location: https://bigital.academy/wp-content/plugins/elementor/
+ | Last Updated: 2024-10-01T08:54:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 3.24.5
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ |
+ | Version: 3.6.0 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://bigital.academy/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.6.0
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://bigital.academy/wp-content/plugins/elementor/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://bigital.academy/wp-content/plugins/elementor/readme.txt
+
+[32m[+][0m mailchimp-for-wp
+ | Location: https://bigital.academy/wp-content/plugins/mailchimp-for-wp/
+ | Last Updated: 2024-09-17T07:49:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 4.9.17
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 4.9.13 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://bigital.academy/wp-content/plugins/mailchimp-for-wp/readme.txt
+ | Confirmed By: Change Log (Aggressive Detection)
+ |  - https://bigital.academy/wp-content/plugins/mailchimp-for-wp/CHANGELOG.md, Match: '#### 4.9.13 - Apr 25, 2024'
+
+[32m[+][0m massive-cryptocurrency-widgets
+ | Location: https://bigital.academy/wp-content/plugins/massive-cryptocurrency-widgets/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m menu-image
+ | Location: https://bigital.academy/wp-content/plugins/menu-image/
+ | Latest Version: 3.11 (up to date)
+ | Last Updated: 2023-12-27T20:45:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 3.11 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://bigital.academy/wp-content/plugins/menu-image/readme.txt
+
+[32m[+][0m restrict-content-pro
+ | Location: https://bigital.academy/wp-content/plugins/restrict-content-pro/
+ | Latest Version: 3.5.42
+ | Last Updated: 2024-07-18T00:00:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m studiare-core
+ | Location: https://bigital.academy/wp-content/plugins/studiare-core/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m woocommerce
+ | Location: https://bigital.academy/wp-content/plugins/woocommerce/
+ | Last Updated: 2024-09-25T13:56:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 9.3.3
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By:
+ |  Urls In 404 Page (Passive Detection)
+ |  Meta Generator (Passive Detection)
+ |
+ | Version: 6.2.2 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://bigital.academy/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=6.2.2
+ |  - https://bigital.academy/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.2.2
+ |  - https://bigital.academy/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=6.2.2
+ | Confirmed By:
+ |  Meta Generator (Passive Detection)
+ |   - https://bigital.academy/, Match: 'WooCommerce 6.2.2'
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://bigital.academy/wp-content/plugins/woocommerce/readme.txt
+
+[32m[+][0m wordpress-seo-premium
+ | Location: https://bigital.academy/wp-content/plugins/wordpress-seo-premium/
+ | Last Updated: 2024-09-24T08:20:56.000Z
+ | [33m[!][0m The version is out of date, the latest version is 23.5
+ |
+ | Found By: Comment (Passive Detection)
+ |
+ | Version: 17.9 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://bigital.academy/wp-content/plugins/wordpress-seo-premium/readme.txt
+
+[32m[+][0m wp-rocket
+ | Location: https://bigital.academy/wp-content/plugins/wp-rocket/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 3.4 (60% confidence)
+ | Found By: Translation File (Aggressive Detection)
+ |  - https://bigital.academy/wp-content/plugins/wp-rocket/languages/rocket.pot, Match: 'Project-Id-Version: WP Rocket 3.4'
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 12
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:48:53 2024
+[32m[+][0m Requests Done: 224
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 58.593 KB
+[32m[+][0m Data Received: 1.589 MB
+[32m[+][0m Memory used: 287.578 MB
+[32m[+][0m Elapsed time: 00:00:28
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://ccaespanish.academy 
+
+Scan Aborted: Unable to identify the wp-content dir, please supply it with --wp-content-dir, use the --scope option or make sure the --url value given is the correct one
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://kartlimited.academy 
+
+Scan Aborted: The url supplied 'https://kartlimited.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://masteralex.academy 
+
+Scan Aborted: The url supplied 'https://masteralex.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://moscience.academy 
+
+Scan Aborted: Unable to identify the wp-content dir, please supply it with --wp-content-dir, use the --scope option or make sure the --url value given is the correct one
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://nautilusgroup.academy 
+
+Scan Aborted: The url supplied 'https://nautilusgroup.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://proog.academy 
+
+Scan Aborted: The url supplied 'https://proog.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://qlearning.academy 
+
+Scan Aborted: The url supplied 'https://qlearning.academy/' seems to be down (Timeout was reached)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://timelessbeauty.academy 
+[32m[+][0m URL: https://timelessbeauty.academy/ [145.14.156.42]
+[32m[+][0m Started: Mon Oct 14 05:49:37 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - x-powered-by: PHP/7.4.33
+ |  - x-litespeed-cache: hit
+ |  - server: LiteSpeed
+ |  - platform: hostinger
+ |  - panel: hpanel
+ |  - content-security-policy: upgrade-insecure-requests
+ |  - alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://timelessbeauty.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-admin/
+ |  - /wp-admin/admin-ajax.php
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://timelessbeauty.academy/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: https://timelessbeauty.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site has 'Must Use Plugins': https://timelessbeauty.academy/wp-content/mu-plugins/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 80%
+ | Reference: http://codex.wordpress.org/Must_Use_Plugins
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://timelessbeauty.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.5.5 identified (Outdated, released on 2024-06-24).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://timelessbeauty.academy/feed/, <generator>https://wordpress.org/?v=6.5.5</generator>
+ |  - https://timelessbeauty.academy/comments/feed/, <generator>https://wordpress.org/?v=6.5.5</generator>
+
+[32m[+][0m WordPress theme in use: kava
+ | Location: https://timelessbeauty.academy/wp-content/themes/kava/
+ | Readme: https://timelessbeauty.academy/wp-content/themes/kava/README.md
+ | Style URL: https://timelessbeauty.academy/wp-content/themes/kava/style.css?ver=2.1.4
+ | Style Name: Kava
+ | Style URI: https://crocoblock.com/kava/
+ | Description: Kava is a perfectly balanced clean WordPress theme, fully compatible with Elementor. It is perfect f...
+ | Author: Crocoblock
+ | Author URI: https://crocoblock.com/
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ | Confirmed By: Css Style In 404 Page (Passive Detection)
+ |
+ | Version: 2.1.4 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://timelessbeauty.academy/wp-content/themes/kava/style.css?ver=2.1.4, Match: 'Version: 2.1.4'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m elementor
+ | Location: https://timelessbeauty.academy/wp-content/plugins/elementor/
+ | Last Updated: 2024-10-01T08:54:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 3.24.5
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 3.20.0 (100% confidence)
+ | Found By: Javascript Comment (Aggressive Detection)
+ |  - https://timelessbeauty.academy/wp-content/plugins/elementor/assets/js/admin-feedback.js, Match: 'elementor - v3.20.0'
+ | Confirmed By: Style Comment (Aggressive Detection)
+ |  - https://timelessbeauty.academy/wp-content/plugins/elementor/assets/css/admin.min.css, Match: 'elementor - v3.20.0'
+
+[32m[+][0m elementor-pro
+ | Location: https://timelessbeauty.academy/wp-content/plugins/elementor-pro/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 3.20.3 (90% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://timelessbeauty.academy/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.20.3
+ |  - https://timelessbeauty.academy/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.20.3
+ |  - https://timelessbeauty.academy/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.20.3
+ | Confirmed By: Change Log (Aggressive Detection)
+ |  - https://timelessbeauty.academy/wp-content/plugins/elementor-pro/changelog.txt, Match: '#### 3.20.3 -'
+
+[32m[+][0m jet-elements
+ | Location: https://timelessbeauty.academy/wp-content/plugins/jet-elements/
+ | Latest Version: 2.7.0
+ | Last Updated: 2024-09-28T00:00:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m jet-engine
+ | Location: https://timelessbeauty.academy/wp-content/plugins/jet-engine/
+ | Latest Version: 3.5.6
+ | Last Updated: 2024-09-28T00:00:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m jet-menu
+ | Location: https://timelessbeauty.academy/wp-content/plugins/jet-menu/
+ | Latest Version: 2.4.4
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m jet-popup
+ | Location: https://timelessbeauty.academy/wp-content/plugins/jet-popup/
+ | Latest Version: 2.0.6
+ | Last Updated: 2024-08-30T00:00:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m real-cookie-banner
+ | Location: https://timelessbeauty.academy/wp-content/plugins/real-cookie-banner/
+ | Last Updated: 2024-09-26T07:33:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 4.8.0
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 4.7.2 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://timelessbeauty.academy/wp-content/plugins/real-cookie-banner/README.txt
+ | Confirmed By: Change Log (Aggressive Detection)
+ |  - https://timelessbeauty.academy/wp-content/plugins/real-cookie-banner/CHANGELOG.md, Match: '## 4.7.2'
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 9
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:50:07 2024
+[32m[+][0m Requests Done: 222
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 69.533 KB
+[32m[+][0m Data Received: 2.688 MB
+[32m[+][0m Memory used: 277.633 MB
+[32m[+][0m Elapsed time: 00:00:30
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://tutorbuddha.academy 
+
+Scan Aborted: The url supplied 'https://tutorbuddha.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://waffensachkunde-frankfurt.academy 
+
+Scan Aborted: The url supplied 'https://waffensachkunde-frankfurt.academy/' seems to be down (SSL connect error)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://waffensachkunde-koblenz.academy 
+
+Scan Aborted: The url supplied 'https://waffensachkunde-koblenz.academy/' seems to be down (SSL connect error)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://waffensachkunde-troisdorf.academy 
+
+Scan Aborted: The url supplied 'https://waffensachkunde-troisdorf.academy/' seems to be down (SSL connect error)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://alrassam.academy 
+[32m[+][0m URL: https://alrassam.academy/ [185.146.22.247]
+[32m[+][0m Started: Mon Oct 14 05:50:14 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entry: server: imunify360-webshield/1.21
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site seems to be a multisite
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | Reference: http://codex.wordpress.org/Glossary#Multisite
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://alrassam.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+
+Fingerprinting the version -: |=============================================================================================================================================================|
+[34m[i][0m The WordPress version could not be detected.
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+
+[34m[i][0m No plugins Found.
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 0
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:51:38 2024
+[32m[+][0m Requests Done: 1735
+[32m[+][0m Cached Requests: 6
+[32m[+][0m Data Sent: 479.759 KB
+[32m[+][0m Data Received: 1.596 MB
+[32m[+][0m Memory used: 243.777 MB
+[32m[+][0m Elapsed time: 00:01:23
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://arabian-coffee.academy 
+
+Scan Aborted: The url supplied 'https://arabian-coffee.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://careerinsights.academy 
+
+Scan Aborted: The url supplied 'https://careerinsights.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://duckalignment.academy 
+[32m[+][0m URL: https://duckalignment.academy/ [63.250.43.16]
+[32m[+][0m Started: Mon Oct 14 05:51:43 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - server: nginx
+ |  - referrer-policy: strict-origin-when-cross-origin
+ |  - x-cacheable: YES
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://duckalignment.academy/robots.txt
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://duckalignment.academy/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m This site has 'Must Use Plugins': https://duckalignment.academy/wp-content/mu-plugins/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 80%
+ | Reference: http://codex.wordpress.org/Must_Use_Plugins
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://duckalignment.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.6.2 identified (Latest, released on 2024-09-10).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://duckalignment.academy/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+ |  - https://duckalignment.academy/comments/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+
+[32m[+][0m WordPress theme in use: coldbox
+ | Location: https://duckalignment.academy/wp-content/themes/coldbox/
+ | Latest Version: 1.9.5 (up to date)
+ | Last Updated: 2023-06-25T00:00:00.000Z
+ | Style URL: https://duckalignment.academy/wp-content/themes/coldbox/style.css
+ | Style Name: Coldbox
+ | Style URI: https://coldbox.miruc.co/
+ | Description: Coldbox is a clean and blog-focused WordPress theme. It helps increase site traffic from Google and ...
+ | Author: mirucon
+ | Author URI: https://miruc.co/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 1.9.5 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://duckalignment.academy/wp-content/themes/coldbox/style.css, Match: 'Version: 1.9.5'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m wordpress-seo
+ | Location: https://duckalignment.academy/wp-content/plugins/wordpress-seo/
+ | Latest Version: 23.5 (up to date)
+ | Last Updated: 2024-09-24T07:41:00.000Z
+ |
+ | Found By: Comment (Passive Detection)
+ |
+ | Version: 23.6 (60% confidence)
+ | Found By: Comment (Passive Detection)
+ |  - https://duckalignment.academy/, Match: 'optimized with the Yoast SEO plugin v23.6 -'
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 3
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:52:40 2024
+[32m[+][0m Requests Done: 183
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 71.366 KB
+[32m[+][0m Data Received: 328.092 KB
+[32m[+][0m Memory used: 284.633 MB
+[32m[+][0m Elapsed time: 00:00:57
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://enigma-rfx.academy 
+
+Scan Aborted: The url supplied 'https://enigma-rfx.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://hoda.academy 
+[32m[+][0m URL: https://hoda.academy/ [37.10.109.206]
+[32m[+][0m Started: Mon Oct 14 05:52:45 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entry: alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://hoda.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-admin/
+ |  - /wp-admin/admin-ajax.php
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://hoda.academy/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: https://hoda.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://hoda.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.6.2 identified (Latest, released on 2024-09-10).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://hoda.academy/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+ |  - https://hoda.academy/comments/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+
+[32m[+][0m WordPress theme in use: wikiteach
+ | Location: https://hoda.academy/wp-content/themes/wikiteach/
+ | Style URL: https://hoda.academy/wp-content/themes/wikiteach/style.css
+ | Style Name: wikiteach
+ | Style URI: https://wikiteach.ir
+ | Author: amir taherkhani
+ | Author URI: https://wikiteach.ir
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m google-analytics-for-wordpress
+ | Location: https://hoda.academy/wp-content/plugins/google-analytics-for-wordpress/
+ | Latest Version: 9.1.1 (up to date)
+ | Last Updated: 2024-09-24T17:46:00.000Z
+ |
+ | Found By: Monster Insights Comment (Passive Detection)
+ |
+ | Version: 9.1.1 (100% confidence)
+ | Found By: Monster Insights Comment (Passive Detection)
+ |  - https://hoda.academy/, Match: 'Google Analytics by MonsterInsights plugin v9.1.1 -'
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://hoda.academy/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://hoda.academy/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+
+[32m[+][0m LayerSlider
+ | Location: https://hoda.academy/wp-content/plugins/LayerSlider/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By:
+ |  Urls In 404 Page (Passive Detection)
+ |  Meta Generator (Passive Detection)
+ |
+ | Version: 6.11.8 (60% confidence)
+ | Found By: Meta Generator (Passive Detection)
+ |  - https://hoda.academy/, Match: 'Powered by LayerSlider 6.11.8 -'
+
+[32m[+][0m wordpress-seo-premium
+ | Location: https://hoda.academy/wp-content/plugins/wordpress-seo-premium/
+ | Last Updated: 2024-09-24T08:20:56.000Z
+ | [33m[!][0m The version is out of date, the latest version is 23.5
+ |
+ | Found By: Comment (Passive Detection)
+ |
+ | Version: 11.9 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://hoda.academy/wp-content/plugins/wordpress-seo-premium/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://hoda.academy/wp-content/plugins/wordpress-seo-premium/readme.txt
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 5
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:53:20 2024
+[32m[+][0m Requests Done: 194
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 61.436 KB
+[32m[+][0m Data Received: 1.31 MB
+[32m[+][0m Memory used: 282.301 MB
+[32m[+][0m Elapsed time: 00:00:34
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://horizonworlds.academy 
+
+Scan Aborted: The url supplied 'https://horizonworlds.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://inevitable.academy 
+
+Scan Aborted: The url supplied 'https://inevitable.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://underwater-photo.academy 
+
+Scan Aborted: The url supplied 'https://underwater-photo.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://careerstart.academy 
+
+Scan Aborted: The url supplied 'https://careerstart.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://housesoflight.academy 
+
+Scan Aborted: The url supplied 'https://housesoflight.academy/' seems to be down (SSL peer certificate or SSH remote key was not OK)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://munafs.academy 
+
+Scan Aborted: The url supplied 'https://munafs.academy/' seems to be down (Timeout was reached)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://robotverksted.academy 
+
+Scan Aborted: The url supplied 'https://robotverksted.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://topo.academy 
+[32m[+][0m URL: https://topo.academy/ [141.193.213.10]
+[32m[+][0m Started: Mon Oct 14 05:54:01 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - x-redirect-by: WordPress
+ |  - x-powered-by: WP Engine
+ |  - x-cacheable: non200
+ |  - x-cache-group: normal
+ |  - cf-cache-status: DYNAMIC
+ |  - server: cloudflare
+ |  - cf-ray: 8d254fd8fd5a4352-EWR
+ |  - alt-svc: h3=":443"; ma=86400
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://topo.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-admin/admin-ajax.php
+ |  - /wp-admin/
+ |  - /homepage/puma/
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://topo.academy/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m This site has 'Must Use Plugins': https://topo.academy/wp-content/mu-plugins/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 80%
+ | Reference: http://codex.wordpress.org/Must_Use_Plugins
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://topo.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+
+Fingerprinting the version -: |=============================================================================================================================================================|
+[34m[i][0m The WordPress version could not be detected.
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m google-site-kit
+ | Location: https://topo.academy/wp-content/plugins/google-site-kit/
+ | Last Updated: 2024-10-07T17:37:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 1.137.0
+ |
+ | Found By: Meta Tag (Passive Detection)
+ |
+ | Version: 1.80.0 (100% confidence)
+ | Found By: Meta Tag (Passive Detection)
+ |  - https://topo.academy/0aa4558.html, Match: 'Site Kit by Google 1.80.0'
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://topo.academy/wp-content/plugins/google-site-kit/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://topo.academy/wp-content/plugins/google-site-kit/readme.txt
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 1
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:55:51 2024
+[32m[+][0m Requests Done: 1444
+[32m[+][0m Cached Requests: 5
+[32m[+][0m Data Sent: 402.922 KB
+[32m[+][0m Data Received: 29.81 MB
+[32m[+][0m Memory used: 257.906 MB
+[32m[+][0m Elapsed time: 00:01:50
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://unmapped.academy 
+[32m[+][0m URL: https://unmapped.academy/ [45.82.188.166]
+[32m[+][0m Started: Mon Oct 14 05:55:54 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entry: server: imunify360-webshield/1.21
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site seems to be a multisite
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | Reference: http://codex.wordpress.org/Glossary#Multisite
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://unmapped.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+
+Fingerprinting the version -: |=============================================================================================================================================================|
+[34m[i][0m The WordPress version could not be detected.
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+
+[34m[i][0m No plugins Found.
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 0
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:57:25 2024
+[32m[+][0m Requests Done: 1735
+[32m[+][0m Cached Requests: 6
+[32m[+][0m Data Sent: 391.855 KB
+[32m[+][0m Data Received: 1.595 MB
+[32m[+][0m Memory used: 241.059 MB
+[32m[+][0m Elapsed time: 00:01:30
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://zenon.academy 
+[32m[+][0m URL: https://zenon.academy/ [81.169.145.88]
+[32m[+][0m Started: Mon Oct 14 05:57:33 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - server: Apache/2.4.62 (Unix)
+ |  - x-powered-by: PHP/8.3.12
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://zenon.academy/robots.txt
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://zenon.academy/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: https://zenon.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://zenon.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.6.2 identified (Latest, released on 2024-09-10).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://zenon.academy/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+ |  - https://zenon.academy/comments/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+
+[32m[+][0m WordPress theme in use: it-photographer
+ | Location: https://zenon.academy/wp-content/themes/it-photographer/
+ | Latest Version: 1.5.4 (up to date)
+ | Last Updated: 2023-09-27T00:00:00.000Z
+ | Readme: https://zenon.academy/wp-content/themes/it-photographer/readme.txt
+ | Style URL: https://zenon.academy/wp-content/themes/it-photographer/style.css?ver=1.5.4
+ | Style Name: IT Photographer
+ | Style URI: https://indithemes.com/product/it-photographer/
+ | Description: IT Photographer is a beautiful WordPress Photography Theme. It is primarily a Multipurpose theme but...
+ | Author: IndiThemes
+ | Author URI: https://wwww.indithemes.com
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ | Confirmed By: Css Style In 404 Page (Passive Detection)
+ |
+ | Version: 1.5.4 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://zenon.academy/wp-content/themes/it-photographer/style.css?ver=1.5.4, Match: 'Version: 1.5.4'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m contact-form-7
+ | Location: https://zenon.academy/wp-content/plugins/contact-form-7/
+ | Latest Version: 5.9.8 (up to date)
+ | Last Updated: 2024-07-25T08:29:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 5.9.8 (90% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://zenon.academy/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8
+ | Confirmed By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://zenon.academy/wp-content/plugins/contact-form-7/readme.txt
+
+[32m[+][0m cookie-law-info
+ | Location: https://zenon.academy/wp-content/plugins/cookie-law-info/
+ | Latest Version: 3.2.6 (up to date)
+ | Last Updated: 2024-08-13T06:43:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 3.2.6 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://zenon.academy/wp-content/plugins/cookie-law-info/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://zenon.academy/wp-content/plugins/cookie-law-info/readme.txt
+
+[32m[+][0m mailchimp-for-wp
+ | Location: https://zenon.academy/wp-content/plugins/mailchimp-for-wp/
+ | Latest Version: 4.9.17 (up to date)
+ | Last Updated: 2024-09-17T07:49:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ |
+ | Version: 4.9.17 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://zenon.academy/wp-content/plugins/mailchimp-for-wp/readme.txt
+ | Confirmed By: Change Log (Aggressive Detection)
+ |  - https://zenon.academy/wp-content/plugins/mailchimp-for-wp/CHANGELOG.md, Match: '#### 4.9.17 - Sep 17, 2024'
+
+[32m[+][0m strato-assistant
+ | Location: https://zenon.academy/wp-content/plugins/strato-assistant/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 7.3.0-fasthosts (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://zenon.academy/wp-content/plugins/strato-assistant/readme.txt
+
+[32m[+][0m wordpress-seo
+ | Location: https://zenon.academy/wp-content/plugins/wordpress-seo/
+ | Latest Version: 23.5 (up to date)
+ | Last Updated: 2024-09-24T07:41:00.000Z
+ |
+ | Found By: Comment (Passive Detection)
+ |
+ | Version: 23.6 (100% confidence)
+ | Found By: Comment (Passive Detection)
+ |  - https://zenon.academy/, Match: 'optimized with the Yoast SEO plugin v23.6 -'
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://zenon.academy/wp-content/plugins/wordpress-seo/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://zenon.academy/wp-content/plugins/wordpress-seo/readme.txt
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 7
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 05:58:11 2024
+[32m[+][0m Requests Done: 191
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 57.73 KB
+[32m[+][0m Data Received: 483.29 KB
+[32m[+][0m Memory used: 280.125 MB
+[32m[+][0m Elapsed time: 00:00:38
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://attarkhone.academy 
+
+Scan Aborted: The url supplied 'https://attarkhone.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://innerway.academy 
+[32m[+][0m URL: https://innerway.academy/ [37.9.175.156]
+[32m[+][0m Started: Mon Oct 14 05:58:19 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - server: openresty
+ |  - x-redirect-by: WordPress
+ |  - referrer-policy: no-referrer-when-downgrade
+ |  - alt-svc: h3=":443"; ma=86400
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m WordPress readme found: https://innerway.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site has 'Must Use Plugins': https://innerway.academy/wp-content/mu-plugins/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 80%
+ | Reference: http://codex.wordpress.org/Must_Use_Plugins
+
+[32m[+][0m WordPress version 6.6.2 identified (Latest, released on 2024-09-10).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://www.innerway.academy/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+ |  - https://www.innerway.academy/comments/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m google-analytics-for-wordpress
+ | Location: https://innerway.academy/wp-content/plugins/google-analytics-for-wordpress/
+ | Latest Version: 9.1.1 (up to date)
+ | Last Updated: 2024-09-24T17:46:00.000Z
+ |
+ | Found By: Monster Insights Comment (Passive Detection)
+ |
+ | Version: 9.1.1 (100% confidence)
+ | Found By: Monster Insights Comment (Passive Detection)
+ |  - https://www.innerway.academy/082eed5.html, Match: 'Google Analytics by MonsterInsights plugin v9.1.1 -'
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://innerway.academy/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://innerway.academy/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+
+[32m[+][0m w3-total-cache
+ | Location: https://innerway.academy/wp-content/plugins/w3-total-cache/
+ | Latest Version: 2.7.6 (up to date)
+ | Last Updated: 2024-09-23T14:51:00.000Z
+ |
+ | Found By: Comment Debug Info (Passive Detection)
+ |
+ | Version: 2.7.6 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://innerway.academy/wp-content/plugins/w3-total-cache/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://innerway.academy/wp-content/plugins/w3-total-cache/readme.txt
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 3
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 06:00:19 2024
+[32m[+][0m Requests Done: 176
+[32m[+][0m Cached Requests: 4
+[32m[+][0m Data Sent: 28.978 KB
+[32m[+][0m Data Received: 550.092 KB
+[32m[+][0m Memory used: 239.656 MB
+[32m[+][0m Elapsed time: 00:02:00
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://madridart.academy 
+
+Scan Aborted: The url supplied 'https://madridart.academy/' seems to be down (SSL connect error)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://purpleha.academy 
+
+Scan Aborted: The url supplied 'https://purpleha.academy/' seems to be down (SSL connect error)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://rprogramming.academy 
+
+Scan Aborted: The url supplied 'https://rprogramming.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://theillegalhacker7.academy 
+[32m[+][0m URL: https://theillegalhacker7.academy/ [89.117.188.173]
+[32m[+][0m Started: Mon Oct 14 06:00:28 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - x-powered-by: PHP/8.1.27
+ |  - x-litespeed-cache: hit
+ |  - server: LiteSpeed
+ |  - platform: hostinger
+ |  - panel: hpanel
+ |  - content-security-policy: upgrade-insecure-requests
+ |  - alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://theillegalhacker7.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-content/uploads/wc-logs/
+ |  - /wp-content/uploads/woocommerce_transient_files/
+ |  - /wp-content/uploads/woocommerce_uploads/
+ |  - /wp-admin/
+ |  - /wp-admin/admin-ajax.php
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://theillegalhacker7.academy/xmlrpc.php
+ | Found By: Link Tag (Passive Detection)
+ | Confidence: 100%
+ | Confirmed By: Direct Access (Aggressive Detection), 100% confidence
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: https://theillegalhacker7.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site has 'Must Use Plugins': https://theillegalhacker7.academy/wp-content/mu-plugins/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 80%
+ | Reference: http://codex.wordpress.org/Must_Use_Plugins
+
+[32m[+][0m Registration is enabled: https://theillegalhacker7.academy/wp-login.php?action=register
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://theillegalhacker7.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.6.2 identified (Latest, released on 2024-09-10).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://theillegalhacker7.academy/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+ |  - https://theillegalhacker7.academy/comments/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+
+[32m[+][0m WordPress theme in use: eduma
+ | Location: https://theillegalhacker7.academy/wp-content/themes/eduma/
+ | Readme: https://theillegalhacker7.academy/wp-content/themes/eduma/readme.txt
+ | Style URL: https://theillegalhacker7.academy/wp-content/themes/eduma/style.css?ver=5.2.0
+ | Style Name: Eduma
+ | Style URI: https://eduma.thimpress.com/
+ | Description: Premium Online LMS & Education WordPress Theme....
+ | Author: ThimPress
+ | Author URI: https://thimpress.com
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ | Confirmed By: Css Style In 404 Page (Passive Detection)
+ |
+ | Version: 5.2.0 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/themes/eduma/style.css?ver=5.2.0, Match: 'Version: 5.2.0'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m contact-form-7
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/contact-form-7/
+ | Latest Version: 5.9.8 (up to date)
+ | Last Updated: 2024-07-25T08:29:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 5.9.8 (90% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.9.8
+ | Confirmed By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/contact-form-7/readme.txt
+
+[32m[+][0m elementor
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/elementor/
+ | Last Updated: 2024-10-01T08:54:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 3.24.5
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 3.20.1 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.20.1
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://theillegalhacker7.academy/wp-content/plugins/elementor/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://theillegalhacker7.academy/wp-content/plugins/elementor/readme.txt
+
+[32m[+][0m instagram-feed
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/instagram-feed/
+ | Latest Version: 6.5.1 (up to date)
+ | Last Updated: 2024-09-18T18:53:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 6.5.1 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/instagram-feed/README.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/instagram-feed/README.txt
+
+[32m[+][0m learnpress
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/learnpress/
+ | Latest Version: 4.2.7.1 (up to date)
+ | Last Updated: 2024-09-11T07:19:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 4.2.7.1 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/learnpress/readme.txt
+
+[32m[+][0m learnpress-coming-soon-courses
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/learnpress-coming-soon-courses/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 4.0.0 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/learnpress-coming-soon-courses/readme.txt
+
+[32m[+][0m learnpress-commission
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/learnpress-commission/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m learnpress-students-list
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/learnpress-students-list/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m learnpress-wishlist
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/learnpress-wishlist/
+ | Last Updated: 2024-08-29T07:25:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 4.0.8
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 4.0.6 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/learnpress-wishlist/readme.txt
+
+[32m[+][0m learnpress-woo-payment
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/learnpress-woo-payment/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m paid-memberships-pro
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/paid-memberships-pro/
+ | Latest Version: 3.2 (up to date)
+ | Last Updated: 2024-10-02T14:53:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 3.2.1 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/paid-memberships-pro/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/paid-memberships-pro/readme.txt
+
+[32m[+][0m revslider
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/revslider/
+ | Last Updated: 2024-09-30T23:46:04.000Z
+ | [33m[!][0m The version is out of date, the latest version is 6.7.20
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By:
+ |  Urls In 404 Page (Passive Detection)
+ |  Meta Generator (Passive Detection)
+ |
+ | Version: 6.6.11 (100% confidence)
+ | Found By: Meta Generator (Passive Detection)
+ |  - https://theillegalhacker7.academy/, Match: 'Powered by Slider Revolution 6.6.11'
+ | Confirmed By: Release Log (Aggressive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/revslider/release_log.html, Match: 'Version 6.6.11 (23rd February 2023)'
+
+[32m[+][0m thim-elementor-kit
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/thim-elementor-kit/
+ | Latest Version: 1.2.4 (up to date)
+ | Last Updated: 2024-08-21T02:03:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 1.2.4 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/thim-elementor-kit/readme.txt
+ | Confirmed By: Translation File (Aggressive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/thim-elementor-kit/languages/thim-elementor-kit.pot, Match: '"Project-Id-Version: Thim Elementor Kit 1.2.4'
+
+[32m[+][0m woocommerce
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/woocommerce/
+ | Latest Version: 9.3.3 (up to date)
+ | Last Updated: 2024-09-25T13:56:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By:
+ |  Urls In 404 Page (Passive Detection)
+ |  Meta Generator (Passive Detection)
+ |
+ | Version: 9.3.3 (100% confidence)
+ | Found By: Meta Generator (Passive Detection)
+ |  - https://theillegalhacker7.academy/, Match: 'WooCommerce 9.3.3'
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://theillegalhacker7.academy/wp-content/plugins/woocommerce/readme.txt
+
+[32m[+][0m woocommerce-memberships
+ | Location: https://theillegalhacker7.academy/wp-content/plugins/woocommerce-memberships/
+ | Latest Version: 1.26.9
+ | Last Updated: 2024-10-08T00:00:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 16
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 06:01:27 2024
+[32m[+][0m Requests Done: 239
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 88.869 KB
+[32m[+][0m Data Received: 3.076 MB
+[32m[+][0m Memory used: 290.59 MB
+[32m[+][0m Elapsed time: 00:00:58
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://wikikiddo.academy 
+[32m[+][0m URL: https://wikikiddo.academy/ [172.67.213.31]
+[32m[+][0m Started: Mon Oct 14 06:01:34 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - x-dns-prefetch-control: on
+ |  - x-litespeed-cache: hit
+ |  - x-turbo-charged-by: LiteSpeed
+ |  - cf-cache-status: DYNAMIC
+ |  - report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=nJo6BOznf%2BWd7Ajfk5JM7%2FRiZ2qn6PsVyanxfSVXxHeD2GCH8WAei5td4YMyVXE%2BkC9%2BBvieVC9iciiqFid%2FebfKqeZWMFpy1hvytPlCUAXP0S4TeJY9E6ZLi94y9o5QUKR4dQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+ |  - nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+ |  - speculation-rules: "/cdn-cgi/speculation"
+ |  - server: cloudflare
+ |  - cf-ray: 8d255ae0cf2d18ea-EWR
+ |  - alt-svc: h3=":443"; ma=86400
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://wikikiddo.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-content/uploads/wc-logs/
+ |  - /wp-content/uploads/woocommerce_transient_files/
+ |  - /wp-content/uploads/woocommerce_uploads/
+ |  - /wp-admin/
+ |  - /wp-admin/admin-ajax.php
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://wikikiddo.academy/xmlrpc.php
+ | Found By: Link Tag (Passive Detection)
+ | Confidence: 100%
+ | Confirmed By: Direct Access (Aggressive Detection), 100% confidence
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: https://wikikiddo.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site has 'Must Use Plugins': https://wikikiddo.academy/wp-content/mu-plugins/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 80%
+ | Reference: http://codex.wordpress.org/Must_Use_Plugins
+
+[32m[+][0m Registration is enabled: https://wikikiddo.academy/wp-login.php?action=register
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://wikikiddo.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.6.2 identified (Latest, released on 2024-09-10).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://wikikiddo.academy/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+ |  - https://wikikiddo.academy/comments/feed/, <generator>https://wordpress.org/?v=6.6.2</generator>
+
+[32m[+][0m WordPress theme in use: Divi
+ | Location: https://wikikiddo.academy/wp-content/themes/Divi/
+ | Latest Version: 4.27.2 (up to date)
+ | Last Updated: 2024-10-02T00:00:00.000Z
+ | Readme: https://wikikiddo.academy/wp-content/themes/Divi/README.md
+ | Style URL: https://wikikiddo.academy/wp-content/themes/Divi/style.css
+ | Style Name: Divi
+ | Style URI: http://www.elegantthemes.com/gallery/divi/
+ | Description: Smart. Flexible. Beautiful. Divi is the most powerful theme in our collection....
+ | Author: Elegant Themes
+ | Author URI: http://www.elegantthemes.com
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 4.27.2 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://wikikiddo.academy/wp-content/themes/Divi/style.css, Match: 'Version: 4.27.2'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m google-analytics-for-wordpress
+ | Location: https://wikikiddo.academy/wp-content/plugins/google-analytics-for-wordpress/
+ | Latest Version: 9.1.1 (up to date)
+ | Last Updated: 2024-09-24T17:46:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 9.1.1 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://wikikiddo.academy/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://wikikiddo.academy/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+
+[32m[+][0m litespeed-cache
+ | Location: https://wikikiddo.academy/wp-content/plugins/litespeed-cache/
+ | Latest Version: 6.5.1 (up to date)
+ | Last Updated: 2024-09-25T18:06:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 6.5.1 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://wikikiddo.academy/wp-content/plugins/litespeed-cache/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://wikikiddo.academy/wp-content/plugins/litespeed-cache/readme.txt
+
+[32m[+][0m monarch
+ | Location: https://wikikiddo.academy/wp-content/plugins/monarch/
+ | Latest Version: 1.4.14 (up to date)
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ |
+ | Version: 1.4.14 (60% confidence)
+ | Found By: Change Log (Aggressive Detection)
+ |  - https://wikikiddo.academy/wp-content/plugins/monarch/changelog.txt, Match: 'version 1.4.14 ('
+
+[32m[+][0m sfwd-lms
+ | Location: https://wikikiddo.academy/wp-content/plugins/sfwd-lms/
+ | Latest Version: 4.17.0 (up to date)
+ | Last Updated: 2024-09-25T05:00:03.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 4.17.0 (60% confidence)
+ | Found By: Translation File (Aggressive Detection)
+ |  - https://wikikiddo.academy/wp-content/plugins/sfwd-lms/languages/learndash.pot, Match: 'Project-Id-Version: LearnDash LMS 4.17.0'
+
+[32m[+][0m woocommerce
+ | Location: https://wikikiddo.academy/wp-content/plugins/woocommerce/
+ | Latest Version: 9.3.3 (up to date)
+ | Last Updated: 2024-09-25T13:56:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By:
+ |  Urls In 404 Page (Passive Detection)
+ |  Meta Generator (Passive Detection)
+ |
+ | Version: 9.3.3 (100% confidence)
+ | Found By: Meta Generator (Passive Detection)
+ |  - https://wikikiddo.academy/, Match: 'WooCommerce 9.3.3'
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://wikikiddo.academy/wp-content/plugins/woocommerce/readme.txt
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 7
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 06:02:40 2024
+[32m[+][0m Requests Done: 200
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 52.264 KB
+[32m[+][0m Data Received: 2.697 MB
+[32m[+][0m Memory used: 284.223 MB
+[32m[+][0m Elapsed time: 00:01:06
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://autorrealizate.academy 
+
+Scan Aborted: Unable to identify the wp-content dir, please supply it with --wp-content-dir, use the --scope option or make sure the --url value given is the correct one
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://iexa.academy 
+[32m[+][0m URL: https://iexa.academy/ [89.46.109.22]
+[32m[+][0m Started: Mon Oct 14 06:02:45 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - server: aruba-proxy
+ |  - x-servername: webx.aruba.it
+ |  - alt-svc: h3=":443"; ma=86400
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site seems to be a multisite
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | Reference: http://codex.wordpress.org/Glossary#Multisite
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://iexa.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+
+Fingerprinting the version -: |=============================================================================================================================================================|
+[34m[i][0m The WordPress version could not be detected.
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+
+[34m[i][0m No plugins Found.
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 0
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 06:03:24 2024
+[32m[+][0m Requests Done: 1021
+[32m[+][0m Cached Requests: 6
+[32m[+][0m Data Sent: 285.291 KB
+[32m[+][0m Data Received: 10.111 MB
+[32m[+][0m Memory used: 233.938 MB
+[32m[+][0m Elapsed time: 00:00:38
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://learndata.academy 
+
+Scan Aborted: The url supplied 'https://learndata.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://lueders.academy 
+
+Scan Aborted: The url supplied 'https://lueders.academy/' seems to be down (Couldn't resolve host name)
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://manumission.academy 
+[32m[+][0m URL: https://manumission.academy/ [104.21.34.158]
+[32m[+][0m Started: Mon Oct 14 06:03:29 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - sg-captcha: challenge
+ |  - x-robots-tag: noindex
+ |  - remote-addr: 159.203.176.77
+ |  - x-default-vhost: 1
+ |  - cf-cache-status: DYNAMIC
+ |  - report-to: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=AjG6Jz1mhbiFg3jmah8vGHUpQ%2F%2F1zDLCD9xvpyk6bNn%2B232N2VozNKsJBDyJMtG8S%2FC12d4Y6WkD7lWIwJeO76oZu9DXo%2Bin8Bjc5D0mk46GVDK%2BccG0ZvIN0aPj7iDEqLUTDjQM"}],"group":"cf-nel","max_age":604800}
+ |  - nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+ |  - speculation-rules: "/cdn-cgi/speculation"
+ |  - server: cloudflare
+ |  - cf-ray: 8d255dc72e1f18bc-EWR
+ |  - alt-svc: h3=":443"; ma=86400
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+
+Fingerprinting the version -: |=============================================================================================================================================================|
+[34m[i][0m The WordPress version could not be detected.
+
+[34m[i][0m The main theme could not be detected.
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+
+[34m[i][0m No plugins Found.
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 0
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 06:04:12 2024
+[32m[+][0m Requests Done: 886
+[32m[+][0m Cached Requests: 4
+[32m[+][0m Data Sent: 206.131 KB
+[32m[+][0m Data Received: 722.048 KB
+[32m[+][0m Memory used: 226.391 MB
+[32m[+][0m Elapsed time: 00:00:43
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://nowyoga.academy 
+[32m[+][0m URL: https://nowyoga.academy/ [85.13.142.225]
+[32m[+][0m Started: Mon Oct 14 06:04:18 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entry: server: Apache
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://nowyoga.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-admin/
+ |  - /wp-admin/admin-ajax.php
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://nowyoga.academy/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: https://nowyoga.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site seems to be a multisite
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | Reference: http://codex.wordpress.org/Glossary#Multisite
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://nowyoga.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 5.8.10 identified (Outdated, released on 2024-06-24).
+ | Found By: Rss Generator (Aggressive Detection)
+ |  - https://nowyoga.academy/feed/, <generator>https://wordpress.org/?v=5.8.10</generator>
+ |  - https://nowyoga.academy/comments/feed/, <generator>https://wordpress.org/?v=5.8.10</generator>
+
+[32m[+][0m WordPress theme in use: Avada
+ | Location: https://nowyoga.academy/wp-content/themes/Avada/
+ | Last Updated: 2024-09-04T00:30:50.000Z
+ | [33m[!][0m The version is out of date, the latest version is 7.11.10
+ | Style URL: https://nowyoga.academy/wp-content/themes/Avada/style.css
+ | Style Name: Avada
+ | Style URI: http://avada.theme-fusion.com/
+ | Description: The #1 selling theme of all time that allows you to build virtually any design style....
+ | Author: ThemeFusion
+ | Author URI: http://themeforest.net/user/ThemeFusion
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ |
+ | Version: 5.7 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://nowyoga.academy/wp-content/themes/Avada/style.css, Match: 'Version: 5.7'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m contact-form-7
+ | Location: https://nowyoga.academy/wp-content/plugins/contact-form-7/
+ | Last Updated: 2024-07-25T08:29:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 5.9.8
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 5.5.6 (90% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://nowyoga.academy/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.6
+ | Confirmed By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://nowyoga.academy/wp-content/plugins/contact-form-7/readme.txt
+
+[32m[+][0m cookie-law-info
+ | Location: https://nowyoga.academy/wp-content/plugins/cookie-law-info/
+ | Last Updated: 2024-08-13T06:43:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 3.2.6
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 2.1.2 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://nowyoga.academy/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-public.css?ver=2.1.2
+ |  - https://nowyoga.academy/wp-content/plugins/cookie-law-info/public/css/cookie-law-info-gdpr.css?ver=2.1.2
+ |  - https://nowyoga.academy/wp-content/plugins/cookie-law-info/public/js/cookie-law-info-public.js?ver=2.1.2
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://nowyoga.academy/wp-content/plugins/cookie-law-info/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://nowyoga.academy/wp-content/plugins/cookie-law-info/readme.txt
+
+[32m[+][0m fusion-builder
+ | Location: https://nowyoga.academy/wp-content/plugins/fusion-builder/
+ | Latest Version: 3.7
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m fusion-core
+ | Location: https://nowyoga.academy/wp-content/plugins/fusion-core/
+ | Latest Version: 5.7
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m woo-multi-currency
+ | Location: https://nowyoga.academy/wp-content/plugins/woo-multi-currency/
+ | Last Updated: 2024-08-27T03:47:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 2.2.3
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 2.1.13 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://nowyoga.academy/wp-content/plugins/woo-multi-currency/readme.txt
+ | Confirmed By: Change Log (Aggressive Detection)
+ |  - https://nowyoga.academy/wp-content/plugins/woo-multi-currency/CHANGELOG.txt, Match: '2.1.13'
+
+[32m[+][0m woocommerce
+ | Location: https://nowyoga.academy/wp-content/plugins/woocommerce/
+ | Last Updated: 2024-09-25T13:56:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 9.3.3
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By:
+ |  Urls In 404 Page (Passive Detection)
+ |  Meta Generator (Passive Detection)
+ |
+ | Version: 3.6.7 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://nowyoga.academy/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.6.7
+ |  - https://nowyoga.academy/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.6.7
+ | Confirmed By:
+ |  Meta Generator (Passive Detection)
+ |   - https://nowyoga.academy/, Match: 'WooCommerce 3.6.7'
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://nowyoga.academy/wp-content/plugins/woocommerce/readme.txt
+
+[32m[+][0m wordpress-seo
+ | Location: https://nowyoga.academy/wp-content/plugins/wordpress-seo/
+ | Last Updated: 2024-09-24T07:41:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 23.5
+ |
+ | Found By: Comment (Passive Detection)
+ |
+ | Version: 18.3 (100% confidence)
+ | Found By: Comment (Passive Detection)
+ |  - https://nowyoga.academy/, Match: 'optimized with the Yoast SEO plugin v18.3 -'
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://nowyoga.academy/wp-content/plugins/wordpress-seo/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://nowyoga.academy/wp-content/plugins/wordpress-seo/readme.txt
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 9
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 06:04:52 2024
+[32m[+][0m Requests Done: 211
+[32m[+][0m Cached Requests: 6
+[32m[+][0m Data Sent: 66.208 KB
+[32m[+][0m Data Received: 1.232 MB
+[32m[+][0m Memory used: 288.738 MB
+[32m[+][0m Elapsed time: 00:00:34
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://paderewski.academy 
+[32m[+][0m URL: https://paderewski.academy/ [195.78.67.43]
+[32m[+][0m Started: Mon Oct 14 06:04:58 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entries:
+ |  - server: LiteSpeed
+ |  - alt-svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m robots.txt found: https://paderewski.academy/robots.txt
+ | Interesting Entries:
+ |  - /wp-admin/admin-ajax.php
+ |  - /wp-admin/
+ | Found By: Robots Txt (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: https://paderewski.academy/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[32m[+][0m WordPress readme found: https://paderewski.academy/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site has 'Must Use Plugins': https://paderewski.academy/wp-content/mu-plugins/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 80%
+ | Reference: http://codex.wordpress.org/Must_Use_Plugins
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://paderewski.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 6.6.2 identified (Latest, released on 2024-09-10).
+ | Found By: Atom Generator (Aggressive Detection)
+ |  - https://paderewski.academy/index.php/feed/atom/, <generator uri="https://wordpress.org/" version="6.6.2">WordPress</generator>
+ | Confirmed By: Opml Generator (Aggressive Detection)
+ |  - https://paderewski.academy/wp-links-opml.php, Match: 'generator="WordPress/6.6.2"'
+
+[32m[+][0m WordPress theme in use: saasland
+ | Location: https://paderewski.academy/wp-content/themes/saasland/
+ | Style URL: https://paderewski.academy/wp-content/themes/saasland/style.css?ver=6.6.2
+ | Style Name: Saasland
+ | Style URI: https://preview.droitthemes.net/wp/saasland/
+ | Description: Saasland is a creative WordPress theme for saas, software, startup, mobile app, agency and related p...
+ | Author: DroitThemes
+ | Author URI: https://themeforest.net/user/droitthemes
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ | Confirmed By: Css Style In 404 Page (Passive Detection)
+ |
+ | Version: 3.4.2 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - https://paderewski.academy/wp-content/themes/saasland/style.css?ver=6.6.2, Match: 'Version: 3.4.2'
+
+[32m[+][0m Enumerating All Plugins (via Passive Methods)
+[32m[+][0m Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[34m[i][0m Plugin(s) Identified:
+
+[32m[+][0m contact-form-7
+ | Location: https://paderewski.academy/wp-content/plugins/contact-form-7/
+ | Last Updated: 2024-07-25T08:29:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 5.9.8
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 5.5.6 (90% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://paderewski.academy/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.5.6
+ | Confirmed By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://paderewski.academy/wp-content/plugins/contact-form-7/readme.txt
+
+[32m[+][0m droit-dark-mode
+ | Location: https://paderewski.academy/wp-content/plugins/droit-dark-mode/
+ | Last Updated: 2023-08-22T10:48:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 1.1.2
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 1.0.7 (10% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://paderewski.academy/wp-content/plugins/droit-dark-mode/assets/css/public-mode.css?ver=1.0.7
+
+[32m[+][0m droit-elementor-templating
+ | Location: https://paderewski.academy/wp-content/plugins/droit-elementor-templating/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m elementor
+ | Location: https://paderewski.academy/wp-content/plugins/elementor/
+ | Last Updated: 2024-10-01T08:54:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 3.24.5
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 3.5.6 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://paderewski.academy/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.5.6
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://paderewski.academy/wp-content/plugins/elementor/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://paderewski.academy/wp-content/plugins/elementor/readme.txt
+
+[32m[+][0m google-analytics-for-wordpress
+ | Location: https://paderewski.academy/wp-content/plugins/google-analytics-for-wordpress/
+ | Last Updated: 2024-09-24T17:46:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 9.1.1
+ |
+ | Found By: Monster Insights Comment (Passive Detection)
+ |
+ | Version: 8.4.0 (100% confidence)
+ | Found By: Monster Insights Comment (Passive Detection)
+ |  - https://paderewski.academy/, Match: 'Google Analytics by MonsterInsights plugin v8.4.0 -'
+ | Confirmed By:
+ |  Readme - Stable Tag (Aggressive Detection)
+ |   - https://paderewski.academy/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+ |  Readme - ChangeLog Section (Aggressive Detection)
+ |   - https://paderewski.academy/wp-content/plugins/google-analytics-for-wordpress/readme.txt
+
+[32m[+][0m jquery-updater
+ | Location: https://paderewski.academy/wp-content/plugins/jquery-updater/
+ | Last Updated: 2024-07-18T15:58:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 3.7.1.3
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 3.6.0.1 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://paderewski.academy/wp-content/plugins/jquery-updater/readme.txt
+
+[32m[+][0m lordicon-interactive-icons
+ | Location: https://paderewski.academy/wp-content/plugins/lordicon-interactive-icons/
+ | Latest Version: 2.0.1 (up to date)
+ | Last Updated: 2021-07-03T08:57:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 2.0.1 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://paderewski.academy/wp-content/plugins/lordicon-interactive-icons/readme.txt
+
+[32m[+][0m mailpoet
+ | Location: https://paderewski.academy/wp-content/plugins/mailpoet/
+ | Last Updated: 2024-10-03T13:02:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 5.3.0
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ |
+ | Version: 3.84.0 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://paderewski.academy/wp-content/plugins/mailpoet/readme.txt
+
+[32m[+][0m revslider
+ | Location: https://paderewski.academy/wp-content/plugins/revslider/
+ | Last Updated: 2024-09-30T23:46:04.000Z
+ | [33m[!][0m The version is out of date, the latest version is 6.7.20
+ |
+ | Found By: Meta Generator (Passive Detection)
+ |
+ | Version: 6.5.9 (60% confidence)
+ | Found By: Meta Generator (Passive Detection)
+ |  - https://paderewski.academy/, Match: 'Powered by Slider Revolution 6.5.9'
+
+[32m[+][0m saasland-core
+ | Location: https://paderewski.academy/wp-content/plugins/saasland-core/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m slider-revolution
+ | Location: https://paderewski.academy/wp-content/plugins/slider-revolution/
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m supportboard
+ | Location: https://paderewski.academy/wp-content/plugins/supportboard/
+ | Last Updated: 2024-10-07T19:32:37.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | The version could not be determined.
+
+[32m[+][0m ti-woocommerce-wishlist
+ | Location: https://paderewski.academy/wp-content/plugins/ti-woocommerce-wishlist/
+ | Last Updated: 2024-03-03T09:08:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 2.8.2
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By: Urls In 404 Page (Passive Detection)
+ |
+ | Version: 1.42.0 (100% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - https://paderewski.academy/wp-content/plugins/ti-woocommerce-wishlist/readme.txt
+ | Confirmed By: Readme - ChangeLog Section (Aggressive Detection)
+ |  - https://paderewski.academy/wp-content/plugins/ti-woocommerce-wishlist/readme.txt
+
+[32m[+][0m woocommerce
+ | Location: https://paderewski.academy/wp-content/plugins/woocommerce/
+ | Last Updated: 2024-09-25T13:56:00.000Z
+ | [33m[!][0m The version is out of date, the latest version is 9.3.3
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ | Confirmed By:
+ |  Urls In 404 Page (Passive Detection)
+ |  Meta Generator (Passive Detection)
+ |
+ | Version: 6.3.0 (100% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - https://paderewski.academy/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=6.3.0
+ |  - https://paderewski.academy/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=6.3.0
+ |  - https://paderewski.academy/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=6.3.0
+ |  - https://paderewski.academy/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=6.3.0
+ |  - https://paderewski.academy/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=6.3.0
+ |  - https://paderewski.academy/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=6.3.0
+ | Confirmed By: Meta Generator (Passive Detection)
+ |  - https://paderewski.academy/, Match: 'WooCommerce 6.3.0'
+
+[32m[+][0m Enumerating Config Backups (via Passive and Aggressive Methods)
+
+ Checking Config Backups -: |===============================================================================================================================================================|
+
+[34m[i][0m No Config Backups Found.
+
+[32m[+][0m WPScan DB API OK
+ | Plan: free
+ | Requests Done (during the scan): 16
+ | Requests Remaining: Unlimited
+
+[32m[+][0m Finished: Mon Oct 14 06:05:39 2024
+[32m[+][0m Requests Done: 239
+[32m[+][0m Cached Requests: 7
+[32m[+][0m Data Sent: 73.373 KB
+[32m[+][0m Data Received: 2.139 MB
+[32m[+][0m Memory used: 286.617 MB
+[32m[+][0m Elapsed time: 00:00:40
+[0;31m
+================================================================================[0m
+TARGET NAME:- https://primoretz.academy 
+[32m[+][0m URL: https://primoretz.academy/ [79.98.104.180]
+[32m[+][0m Started: Mon Oct 14 06:05:42 2024
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entry: server: imunify360-webshield/1.21
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m This site seems to be a multisite
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | Reference: http://codex.wordpress.org/Glossary#Multisite
+
+[32m[+][0m The external WP-Cron seems to be enabled: https://primoretz.academy/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+
+Fingerprinting the version -: |=================================================================================
