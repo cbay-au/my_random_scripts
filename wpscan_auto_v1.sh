@@ -27,7 +27,7 @@ rm counter.txt
 #printf "${RED} Results for $1 ${NORMAL}\n"
 I=0
 #wl_pass=~/mycode/reconftw/Recon/$1/hosts/ips.txt
-wl_pass=~/ztargets/wp_websites.csv-aa_1.1.97500
+wl_pass=~/ztargets/wp_websites.csv-aa_1.1.50000-100000
 #wpscan --update
 printf "${BLUE}\n\n########################################################################\n${NORMAL}" >> "results.${D}"
 printf "${RED}##                 WordPress Auto Mass Scan                       ##${NORMAL}\n" >> "results.${D}"
