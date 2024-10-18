@@ -49,13 +49,13 @@ password_brute() {
 
 # OPTION 2 - identify which sites are running WP from a file of IP addresses
 wp_confirm() {
-wpscan --url $fn --no-update --force --random-user-agent --ignore-main-redirect --wp-version-detection aggressive --no-banner 
->> "${RESULTS}"
+wpscan --url $fn --no-update --force --random-user-agent --ignore-main-redirect --wp-version-detection aggressive --no-banner >> "${RESULTS}"
 					# --force disable WP detection; --wp-version-detection aggressive
 }
 
 I=$((I+1))
-printf "Loop number %-1d of %-.3d  Target = $fn  Runtime = ${ELAPSED} \n" $I  $count_pass >> ~/zresults/counter.txt-70k
+ELAPSED="Elapsed: $(($SECONDS / 3600))hrs $((($SECONDS / 60) % 60))min $(($SECONDS % 60))sec"
+printf "Loop number %-1d of %-.3d  Target = $fn \t\t Runtime = ${ELAPSED} \n" $I  $count_pass >> ~/zresults/counter.txt-70k
 
 # Select option
 wp_confirm
