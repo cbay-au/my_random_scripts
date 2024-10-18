@@ -14,21 +14,13 @@ printf "${BLUE}\n###############################################################
 
 
 sleep 2
-#"result.${d}.parsed""result.${d}.parsed"
 
 D=$(date +"%y%m%d")						# creates a date variable in the form yymmdd
-RESULTS=~/zresults/wp_websites.csv-aa_1.1-10k-results
+RESULTS=~/zresults/wp_websites.csv-aa_1.1-30k-results
 SECONDS=0
 ELAPSED="Elapsed: $(($SECONDS / 3600))hrs $((($SECONDS / 60) % 60))min $(($SECONDS % 60))sec"
-#results=$(~/zresults/wp_websites.csv-aa_1.1.{D})		# not working ??
-#resultsave=$((echo "${results" | cut -d"/" -f2))
-#echo ${resultsave}
-#rm results*
-#rm counter.txt
-#printf "${RED} Results for $1 ${NORMAL}\n"
 I=0
-#wl_pass=~/mycode/reconftw/Recon/$1/hosts/ips.txt
-wl_pass=~/ztargets/wp_websites.csv-aa_1.1-10k
+wl_pass=~/ztargets/wp_websites.csv-aa_1.1-30k
 #wpscan --update
 printf "${BLUE}\n\n########################################################################\n${NORMAL}" >> "${RESULTS}"
 printf "${RED}##                 WordPress Auto Mass Scan                       ##${NORMAL}\n" >> "${RESULTS}"
@@ -49,12 +41,13 @@ password_brute() {
 
 # OPTION 2 - identify which sites are running WP from a file of IP addresses
 wp_confirm() {
-wpscan --url $fn --no-update --force --random-user-agent --ignore-main-redirect --wp-version-detection aggressive --no-banner --api-token s3KWluzJG9MQYtsy413EWzWm419hAUmdhs8sUaAWPhQ >> "${RESULTS}"
+wpscan --url $fn --no-update --force --random-user-agent --ignore-main-redirect --wp-version-detection aggressive --no-banner >> "${RESULTS}"
 					# --force disable WP detection; --wp-version-detection aggressive
 }
 
 I=$((I+1))
-printf "Loop number %-1d of %-.3d  Target = $fn  Runtime = ${ELAPSED} \n" $I  $count_pass >> counter.txt-10k
+ELAPSED="Elapsed: $(($SECONDS / 3600))hrs $((($SECONDS / 60) % 60))min $(($SECONDS % 60))sec"
+printf "Loop number %-1d of %-.3d  Target = $fn \t\t Runtime = ${ELAPSED} \n" $I  $count_pass >> ~/zresults/counter.txt-30k
 
 # Select option
 wp_confirm

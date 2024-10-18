@@ -16,11 +16,11 @@ printf "${BLUE}\n###############################################################
 sleep 2
 
 D=$(date +"%y%m%d")						# creates a date variable in the form yymmdd
-RESULTS=~/zresults/wp_websites.csv-aa_1.1-10k-results
+RESULTS=~/zresults/wp_websites.csv-aa_1.1-00k-results
 SECONDS=0
 ELAPSED="Elapsed: $(($SECONDS / 3600))hrs $((($SECONDS / 60) % 60))min $(($SECONDS % 60))sec"
 I=0
-wl_pass=~/ztargets/wp_websites.csv-aa_1.1-10k
+wl_pass=~/ztargets/wp_websites.csv-aa_1.1-00k
 #wpscan --update
 printf "${BLUE}\n\n########################################################################\n${NORMAL}" >> "${RESULTS}"
 printf "${RED}##                 WordPress Auto Mass Scan                       ##${NORMAL}\n" >> "${RESULTS}"
@@ -47,7 +47,7 @@ wpscan --url $fn --no-update --force --random-user-agent --ignore-main-redirect 
 
 I=$((I+1))
 ELAPSED="Elapsed: $(($SECONDS / 3600))hrs $((($SECONDS / 60) % 60))min $(($SECONDS % 60))sec"
-printf "Loop number %-1d of %-.3d  Target = $fn \t\t Runtime = ${ELAPSED} \n" $I  $count_pass >> ~/zresults/counter.txt-10k
+printf "Loop number %-1d of %-.3d  Target = $fn \t\t Runtime = ${ELAPSED} \n" $I  $count_pass >> ~/zresults/counter.txt-00k
 
 # Select option
 wp_confirm
